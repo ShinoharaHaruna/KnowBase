@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0936cba83715fb0a",
+        "id": "eef375034b762d87",
         "type": "tabs",
         "children": [
           {
-            "id": "139a1615c185de00",
+            "id": "2827fb967f627b51",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,9 +195,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "139a1615c185de00",
+  "active": "2827fb967f627b51",
   "lastOpenFiles": [
-    "Weeks/周报 - 第零周.md",
+    "Weeks/周报 - 第0周.md",
+    "Weeks/周报 - 第53周.md",
+    "README.md",
+    "(Template)/WeekReport.md",
+    "Weeks/周报 - 第一周.md",
+    "(Template)/Video.md",
     "Readings/AI 驱动对象存储成为企业存储主导技术.md",
     "Wiki/FHS.md",
     "Readings/所以... Nix 到底是什么？.md",
@@ -205,14 +210,11 @@
     "Wiki/闭包.md",
     "Wiki/Git.md",
     "Wiki/Merkle Tree.md",
-    "README.md",
     "Prompts/Tags Generator.md",
     "(Metadata)/Tags.md",
     "(Template)/Reading.md",
     "(Template)/Wiki.md",
-    "(Template)/Video.md",
     "Prompts/Reading List Organizer.md",
-    "(Template)/WeekReport.md",
     "Assets/Images/OSSusage.webp",
     "Assets/Images/ChallengesOfOSSinAI.webp",
     "Assets/Images",
@@ -232,7 +234,6 @@
     "Dataview-Example/Playground.md",
     "Test/周报 - 第51周.md",
     "Test/未命名.md",
-    "Test/Untitled 1.md",
-    "Test/Untitled.md"
+    "Test/Untitled 1.md"
   ]
 }
