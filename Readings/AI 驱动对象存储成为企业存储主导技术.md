@@ -24,9 +24,9 @@ status: 已读完
 5. **云与私有云的平衡**：虽然公有云在 AI 工作负载中占主导地位，但混合云部署日益增多，企业对私有云和公有云的结合使用感兴趣，尤其是在面对成本和数据控制需求时。
 6. **未来存储发展**：随着数据存储规模和访问需求的不断增长，对象存储在性能、扩展性、安全性及简便性上的优势将持续推动其在 AI 时代的应用。
 
-![OSSusage](OSSusage.webp)
+![OSSusage](../Assets/Images/OSSusage.webp)
 
-![ChallengesOfOSSinAI](ChallengesOfOSSinAI.webp)
+![ChallengesOfOSSinAI](../Assets/Images/ChallengesOfOSSinAI.webp)
 
 数据存储领域正经历一场深刻变革。
 
