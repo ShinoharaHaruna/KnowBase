@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "630523ccab0cbc99",
+    "type": "split",
+    "children": [
+      {
+        "id": "a81a4e298b2a4835",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5e6f4a36b586843",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weeks/周报 - 第零周.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "周报 - 第零周"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86d7a1218467f8a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b62377b2d901848",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c1afbb532ed0193",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "861ac3af25f44181",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "catego",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "44d9f94d8d20bb00",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e8c6d2834e05bde",
+    "type": "split",
+    "children": [
+      {
+        "id": "307f0f8f0e6569b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05fe5ffd15b27f4f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Weeks/周报 - 第零周.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "周报 - 第零周 的反向链接列表"
+            }
+          },
+          {
+            "id": "48f8e9c9673745b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Weeks/周报 - 第零周.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "周报 - 第零周 的出链列表"
+            }
+          },
+          {
+            "id": "c81dcadc4e3e566b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "aa569d0975bdacf4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Weeks/周报 - 第零周.md"
+              },
+              "icon": "lucide-list",
+              "title": "周报 - 第零周 的大纲"
+            }
+          },
+          {
+            "id": "ae4f3b3978897224",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-info",
+              "title": "README的笔记属性"
+            }
+          },
+          {
+            "id": "2ce54fa2e14b2b36",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-projects:打开项目": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "a5e6f4a36b586843",
+  "lastOpenFiles": [
+    "Wiki/FHS.md",
+    "Wiki/Git.md",
+    "Wiki/闭包.md",
+    "Wiki/Merkle Tree.md",
+    "Weeks/周报 - 第零周.md",
+    "Readings/所以... Nix 到底是什么？.md",
+    "Prompts/Tags Generator.md",
+    "(Metadata)/Tags.md",
+    "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
+    "(Template)/Reading.md",
+    "(Template)/Wiki.md",
+    "Readings/AI 驱动对象存储成为企业存储主导技术.md",
+    "(Template)/Video.md",
+    "Prompts/Reading List Organizer.md",
+    "(Template)/WeekReport.md",
+    "(Assets)/Images/OSSusage.webp",
+    "(Assets)/Images/ChallengesOfOSSinAI.webp",
+    "(Assets)/Images",
+    "(Assets)/ChallengesOfOSSinAI.webp.crdownload",
+    "(Assets)/OSSusage.webp.crdownload",
+    "(Assets)",
+    "Readings",
+    "(Metadata)/Structure.md",
+    "(Template)/周报/AutoRename.md",
+    "(Template)/周报/WeekReportTemplater.md",
+    "(Template)/周报/WeekReport.md",
+    "Prompts",
+    "Weeks",
+    "Wiki",
+    "Learnguage/English",
+    "Learnguage/日本語",
+    "README.md",
+    "Dataview-Example/Playground.md",
+    "Test/周报 - 第51周.md",
+    "Test/未命名.md",
+    "Test/Untitled 1.md",
+    "Test/Untitled.md",
+    "safd.md"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
+  "blue-topaz-theme@@disable-auto-hide-header": true,
+  "blue-topaz-theme@@bt-status-on": false,
+  "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
+  "blue-topaz-theme@@font-family-change-to-default": false,
+  "blue-topaz-theme@@font-text-theme": "Fira Code, Bookerly,'Inter', 'Segoe UI','霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji',var(--font-interface)"
+}

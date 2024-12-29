@@ -1,0 +1,10 @@
+{
+  "accentColor": "#007aff",
+  "interfaceFontFamily": "San Francisco Display,PingFang SC,Sarasa UI SC,Microsoft YaHei UI",
+  "textFontFamily": "LXGW WenKai,Fira Code,Sarasa Gothic SC,PingFang SC,San Francisco Display,Microsoft YaHei",
+  "monospaceFontFamily": "FiraMono Nerd Font Mono,FiraMono Nerd Font,Fira Code",
+  "nativeMenus": true,
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 19,
+  "showViewHeader": true
+}
