@@ -1,6 +1,7 @@
 ---
 title: Golang 中的 Context 如何让代码更智能、更安全、更易于扩展
-author: 南丞
+author:
+  - 南丞
 date created: 2024-12-28T17:51:00
 category: Golang
 tags:
@@ -12,7 +13,7 @@ tags:
 url:
   - https://mp.weixin.qq.com/s/uW7NW-BMk32fDxLiM8PByQ
 description: 这篇文章详细介绍了在 Golang 中如何使用 context 包来增强代码的智能性、安全性和可扩展性。通过探讨 context 的基本功能、使用方法以及高级应用，读者可以学习如何在 Go 语言中有效地管理 goroutine 之间的交互，防止资源泄漏，并简化函数参数传递。
-status: 已读完
+status: Finished
 ---
 
 ## Golang 中的 Context 如何让代码更智能、更安全、更易于扩展

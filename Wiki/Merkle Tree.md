@@ -2,8 +2,10 @@
 title: Merkle Tree
 date created: 2024-12-29 17:54:55
 tags:
-category:
-related articles:
+  - "#计算机科学"
+  - "#数据管理"
+  - "#Git"
+category: 数据结构
 ---
 
 ## 定义

@@ -26,6 +26,7 @@
     "date created": "datetime",
     "last modified": "datetime",
     "status": "text",
-    "url": "multitext"
+    "url": "multitext",
+    "author": "multitext"
   }
 }

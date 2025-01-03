@@ -3,7 +3,6 @@ title: <% tp.file.title %>
 date created: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 tags:
 category:
-related articles:
 ---
 
 # <% tp.file.title %>
