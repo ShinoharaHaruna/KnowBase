@@ -4,10 +4,14 @@ author:
   - Go 编程世界
 date created: 2025-01-01 14:03:00
 category: Golang
-tags: 
+tags:
+  - "#Golang"
+  - "#并发"
+  - "#编程实践"
+  - "#软件开发"
 url:
   - https://mp.weixin.qq.com/s/wPXzISELBc33vjvxPvQY5w
-description: 
+description: 这篇文章深入探讨了 Go 语言中的 `context` 包，详细解析了其设计理念、核心接口和多种实现方式。通过源码解读，读者可以理解 `context` 在控制链路和安全传值方面的作用，以及如何在并发编程中有效使用它。文章还提供了 context 树形结构的示例，帮助读者更直观地掌握其应用场景。
 status: Finished
 ---
 
