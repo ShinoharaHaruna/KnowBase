@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1abbb73cc6b6c200",
+        "id": "80af02dbbe51ef4e",
         "type": "tabs",
         "children": [
           {
-            "id": "146901b6d7101086",
+            "id": "4c09e58ec3331adb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -186,8 +186,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "146901b6d7101086",
+  "active": "4c09e58ec3331adb",
   "lastOpenFiles": [
+    "(Template)/WeekReport.md",
+    "Weeks/周报 - 第12周.md",
+    "Weeks/周报 - 第3周.md",
+    "(Template)/Reading.md",
+    "(Template)/Video.md",
+    "(Template)/Wiki.md",
+    "(Template)/Diary.md",
+    "Weeks/日記 - 2025年01月08日.md",
     "Weeks/周报 - 第2周.md",
     "Weeks/周报 - 第1周.md",
     "README.md",
@@ -203,21 +211,12 @@
     "Wiki/Merkle Tree.md",
     "Wiki/类型断言.md",
     "Prompts/Reading List Organizer.md",
-    "(Template)/WeekReport.md",
     "(Metadata)/Tags.md",
     "Weeks/周报 - 第0周.md",
-    "Prompts/Tags Generator.md",
-    "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
-    "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
-    "Readings/Go 错误处理指北：Error vs Exception vs ErrNo.md",
-    "Readings/Builder 模式在 Go 语言中的应用.md",
-    "Readings/【年度总结】一口气了解2024年的全球经济.md",
-    "Readings/Go 并发控制：context 源码解读.md",
     "Assets/Images/GoConcurrencyControlContextSourceCodeInterpretation_p2.webp",
     "Assets/Images/GoConcurrencyControlContextSourceCodeInterpretation_p2.webp.crdownload",
     "Assets/Images/GoConcurrencyControlContextSourceCodeInterpretation_p1.webp",
     "Assets/Images/GoConcurrencyControlContextSourceCodeInterpretation_p1.webp.crdownload",
-    "(Metadata)/Structure.md",
     "Assets/Images/IFoundThatReallyGoodPeopleAreGoodAtChatting_p5.webp",
     "Assets/Images/IFoundThatReallyGoodPeopleAreGoodAtChatting_p5.webp.crdownload",
     "Assets/Images/IFoundThatReallyGoodPeopleAreGoodAtChatting_p4.webp",
