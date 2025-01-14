@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "04d6813d406bd78b",
+        "id": "1426aba87fd3d161",
         "type": "tabs",
         "children": [
           {
-            "id": "e317e147c1a80e0b",
+            "id": "50767c19795a3d9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -139,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -151,11 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "README.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "README的笔记属性"
+              "title": "笔记属性"
             }
           },
           {
@@ -192,16 +181,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-projects:打开项目": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "e317e147c1a80e0b",
+  "active": "50767c19795a3d9d",
   "lastOpenFiles": [
+    "(Metadata)/OngoingNotes.md",
+    "Kanban.md",
+    "Readings/Builder 模式在 Go 语言中的应用.md",
+    "Readings/Go 错误处理指北：Error vs Exception vs ErrNo.md",
+    "README.md",
     "Weeks/周报 - 第3周.md",
     "Readings/高性能分布式存储系统关键技术调研.md",
     "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
-    "(Metadata)/OngoingNotes.md",
     "Prompts/Reading List Organizer.md",
     "Readings/AI 驱动对象存储成为企业存储主导技术.md",
     "Assets/Images/DSSResearch_p9.webp",
@@ -234,12 +228,9 @@
     "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
     "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
     "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
-    "Readings/Go 错误处理指北：Error vs Exception vs ErrNo.md",
-    "Readings/Builder 模式在 Go 语言中的应用.md",
     "Readings/【年度总结】一口气了解2024年的全球经济.md",
     "Readings/Go 并发控制：context 源码解读.md",
     "Readings/【互联网简史特别篇】寒冬真实存在吗？互联网行业的春天什么时候到来？.md",
-    "Readings/其实几乎所有人每天都在用 K8S 你真的了解 K8S 吗？【1】.md",
     "Assets/Images/HowK8SAffectEngineering_p2.webp.crdownload",
     "Assets/Images/HowK8SAffectEngineering_p2.webp"
   ]
