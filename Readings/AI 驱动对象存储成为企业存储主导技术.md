@@ -3,7 +3,7 @@ title: AI 驱动对象存储成为企业存储主导技术
 author:
   - Andy730
 date created: 2024-12-24T15:27:00
-category: 技术趋势
+category: 存储技术
 tags:
   - "#对象存储"
   - "#AI"
