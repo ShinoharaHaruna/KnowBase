@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1426aba87fd3d161",
+        "id": "46a23d0fbfc6a373",
         "type": "tabs",
         "children": [
           {
-            "id": "50767c19795a3d9d",
+            "id": "86ecad7bab197bfd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -185,8 +185,11 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "50767c19795a3d9d",
+  "active": "86ecad7bab197bfd",
   "lastOpenFiles": [
+    "Learnguage/日本語/20250115.md",
+    "(Template)/Nihongo.md",
+    "Prompts/LearningJapanese.md",
     "(Metadata)/OngoingNotes.md",
     "Kanban.md",
     "Readings/Builder 模式在 Go 语言中的应用.md",
@@ -228,9 +231,6 @@
     "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
     "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
     "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
-    "Readings/【年度总结】一口气了解2024年的全球经济.md",
-    "Readings/Go 并发控制：context 源码解读.md",
-    "Readings/【互联网简史特别篇】寒冬真实存在吗？互联网行业的春天什么时候到来？.md",
     "Assets/Images/HowK8SAffectEngineering_p2.webp.crdownload",
     "Assets/Images/HowK8SAffectEngineering_p2.webp"
   ]
