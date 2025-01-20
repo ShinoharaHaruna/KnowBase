@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8730c691b52107f6",
+        "id": "6edade4fdf0649fc",
         "type": "tabs",
         "children": [
           {
-            "id": "869b895270440a5d",
+            "id": "d15d26eca43f270b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weeks/周报 - 第3周.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "周报 - 第3周"
+              "title": "新标签页"
             }
           }
         ]
@@ -137,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Weeks/周报 - 第3周.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "周报 - 第3周 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -192,15 +185,20 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "869b895270440a5d",
+  "active": "d15d26eca43f270b",
   "lastOpenFiles": [
-    "Learnguage/日本語/20250115.md",
-    "Weeks/周报 - 第3周.md",
-    "Weeks/周报 - 第0周.md",
-    "Weeks/周报 - 第1周.md",
-    "Weeks/周报 - 第2周.md",
-    "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
+    "(Metadata)/Tags.md",
+    "Weeks/周报 - 第4周.md",
+    "Weeks/周报 - 第3周.md",
+    "Weeks/周报 - 第2周.md",
+    "Weeks/周报 - 第1周.md",
+    "Weeks/周报 - 第0周.md",
+    "README.md",
+    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
+    "Assets/Images/DSSTechSelection_p1.webp",
+    "Assets/Images/DSSTechSelection_p1.webp.crdownload",
+    "Learnguage/日本語/20250115.md",
     "(Metadata)/OngoingNotes.md",
     "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
     "Kanban.md",
@@ -210,7 +208,6 @@
     "(Template)/Nihongo.md",
     "Prompts/LearningJapanese.md",
     "Readings/Builder 模式在 Go 语言中的应用.md",
-    "README.md",
     "Readings/高性能分布式存储系统关键技术调研.md",
     "Prompts/Reading List Organizer.md",
     "Readings/AI 驱动对象存储成为企业存储主导技术.md",
@@ -230,15 +227,11 @@
     "Assets/Images/DSSResearch_p3.webp.crdownload",
     "Assets/Images/DSSResearch_p2.webp",
     "Assets/Images/DSSResearch_p2.webp.crdownload",
-    "Assets/Images/DSSResearch_p1.webp",
-    "Assets/Images/DSSResearch_p1.webp.crdownload",
     "Readings/尽量不要在公共场合做诚挚的自我批评。.md",
     "(Template)/WeekReport.md",
     "Readings/降本增效，开猿节流 K8S 是如何影响工程师发量和饭碗的？【2】.md",
     "Readings/沟通力强的人，说话的顺序是这样的.md",
     "Readings/我发现真正厉害的人，都很会「闲聊」.md",
-    "Readings/所以... Nix 到底是什么？.md",
-    "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
-    "Readings/Go 错误处理指北：如何优雅的处理错误？.md"
+    "Readings/所以... Nix 到底是什么？.md"
   ]
 }
