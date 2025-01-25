@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6edade4fdf0649fc",
+        "id": "93c9a0dbf5be9175",
         "type": "tabs",
         "children": [
           {
-            "id": "d15d26eca43f270b",
+            "id": "bac55bfce54b4e8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -107,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -132,9 +139,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "README.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -142,9 +151,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "README.md"
+              },
               "icon": "lucide-info",
-              "title": "笔记属性"
+              "title": "README的笔记属性"
             }
           },
           {
@@ -185,21 +196,21 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "d15d26eca43f270b",
+  "active": "bac55bfce54b4e8e",
   "lastOpenFiles": [
-    "Prompts/Tags Generator.md",
-    "(Metadata)/Tags.md",
     "Weeks/周报 - 第4周.md",
     "Weeks/周报 - 第3周.md",
+    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
+    "(Metadata)/OngoingNotes.md",
+    "Prompts/Tags Generator.md",
+    "(Metadata)/Tags.md",
     "Weeks/周报 - 第2周.md",
     "Weeks/周报 - 第1周.md",
     "Weeks/周报 - 第0周.md",
     "README.md",
-    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
     "Assets/Images/DSSTechSelection_p1.webp",
     "Assets/Images/DSSTechSelection_p1.webp.crdownload",
     "Learnguage/日本語/20250115.md",
-    "(Metadata)/OngoingNotes.md",
     "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
     "Kanban.md",
     "Readings/Go 错误处理指北：Error vs Exception vs ErrNo.md",
