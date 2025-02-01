@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "93c9a0dbf5be9175",
+        "id": "60d73d9dd07803a1",
         "type": "tabs",
         "children": [
           {
-            "id": "bac55bfce54b4e8e",
+            "id": "0be4efd9833577d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "新标签页"
             }
           }
         ]
@@ -41,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -140,10 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -151,11 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "README.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "README的笔记属性"
+              "title": "笔记属性"
             }
           },
           {
@@ -172,8 +166,7 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,18 +189,24 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "bac55bfce54b4e8e",
+  "active": "0be4efd9833577d2",
   "lastOpenFiles": [
-    "Weeks/周报 - 第4周.md",
+    "Whiteboard.canvas",
+    "README.md",
+    "Weeks/周报 - 第5周.md",
     "Weeks/周报 - 第3周.md",
-    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
-    "(Metadata)/OngoingNotes.md",
+    "Weeks/周报 - 第4周.md",
     "Prompts/Tags Generator.md",
     "(Metadata)/Tags.md",
+    "Readings/每个人都应该掌握的快速调研法.md",
+    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
+    "Prompts/FastKnowing.md",
+    "Prompts/LearningWithFeynman.md",
+    "Prompts/Learning.md",
+    "(Metadata)/OngoingNotes.md",
     "Weeks/周报 - 第2周.md",
     "Weeks/周报 - 第1周.md",
     "Weeks/周报 - 第0周.md",
-    "README.md",
     "Assets/Images/DSSTechSelection_p1.webp",
     "Assets/Images/DSSTechSelection_p1.webp.crdownload",
     "Learnguage/日本語/20250115.md",
@@ -237,12 +236,6 @@
     "Assets/Images/DSSResearch_p3.webp",
     "Assets/Images/DSSResearch_p3.webp.crdownload",
     "Assets/Images/DSSResearch_p2.webp",
-    "Assets/Images/DSSResearch_p2.webp.crdownload",
-    "Readings/尽量不要在公共场合做诚挚的自我批评。.md",
-    "(Template)/WeekReport.md",
-    "Readings/降本增效，开猿节流 K8S 是如何影响工程师发量和饭碗的？【2】.md",
-    "Readings/沟通力强的人，说话的顺序是这样的.md",
-    "Readings/我发现真正厉害的人，都很会「闲聊」.md",
-    "Readings/所以... Nix 到底是什么？.md"
+    "Assets/Images/DSSResearch_p2.webp.crdownload"
   ]
 }
