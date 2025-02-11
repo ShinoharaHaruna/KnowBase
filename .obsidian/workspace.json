@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60d73d9dd07803a1",
+        "id": "96e4b951567aa000",
         "type": "tabs",
         "children": [
           {
-            "id": "0be4efd9833577d2",
+            "id": "79783481779e90f0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -189,13 +189,17 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "0be4efd9833577d2",
+  "active": "79783481779e90f0",
   "lastOpenFiles": [
-    "Whiteboard.canvas",
+    "Weeks/周报 - 第7周.md",
     "README.md",
+    "Kanban.md",
+    "Weeks/周报 - 第6周.md",
     "Weeks/周报 - 第5周.md",
-    "Weeks/周报 - 第3周.md",
     "Weeks/周报 - 第4周.md",
+    "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
+    "Whiteboard.canvas",
+    "Weeks/周报 - 第3周.md",
     "Prompts/Tags Generator.md",
     "(Metadata)/Tags.md",
     "Readings/每个人都应该掌握的快速调研法.md",
@@ -211,7 +215,6 @@
     "Assets/Images/DSSTechSelection_p1.webp.crdownload",
     "Learnguage/日本語/20250115.md",
     "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
-    "Kanban.md",
     "Readings/Go 错误处理指北：Error vs Exception vs ErrNo.md",
     "Assets/Images/GoErrorHandlingGuide_p1.png",
     "Assets/Images/GoErrorHandlingGuide_p1.png.crdownload",
@@ -219,8 +222,6 @@
     "Prompts/LearningJapanese.md",
     "Readings/Builder 模式在 Go 语言中的应用.md",
     "Readings/高性能分布式存储系统关键技术调研.md",
-    "Prompts/Reading List Organizer.md",
-    "Readings/AI 驱动对象存储成为企业存储主导技术.md",
     "Assets/Images/DSSResearch_p9.webp",
     "Assets/Images/DSSResearch_p9.webp.crdownload",
     "Assets/Images/DSSResearch_p8.webp",
