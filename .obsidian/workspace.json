@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "96e4b951567aa000",
+        "id": "37c78fe0d924bb7c",
         "type": "tabs",
         "children": [
           {
-            "id": "79783481779e90f0",
+            "id": "0cc55dd6a17d38f9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -189,22 +189,24 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "79783481779e90f0",
+  "active": "0cc55dd6a17d38f9",
   "lastOpenFiles": [
-    "Weeks/周报 - 第7周.md",
+    "Weeks/周报 - 第8周.md",
     "README.md",
+    "Weeks/周报 - 第7周.md",
+    "Prompts/ProjectDescriptor.md",
+    "Prompts/FastKnowing.md",
+    "Whiteboard.canvas",
     "Kanban.md",
     "Weeks/周报 - 第6周.md",
-    "Weeks/周报 - 第5周.md",
-    "Weeks/周报 - 第4周.md",
-    "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
-    "Whiteboard.canvas",
     "Weeks/周报 - 第3周.md",
+    "Weeks/周报 - 第4周.md",
+    "Weeks/周报 - 第5周.md",
+    "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
     "Prompts/Tags Generator.md",
     "(Metadata)/Tags.md",
     "Readings/每个人都应该掌握的快速调研法.md",
     "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
-    "Prompts/FastKnowing.md",
     "Prompts/LearningWithFeynman.md",
     "Prompts/Learning.md",
     "(Metadata)/OngoingNotes.md",
@@ -220,8 +222,6 @@
     "Assets/Images/GoErrorHandlingGuide_p1.png.crdownload",
     "(Template)/Nihongo.md",
     "Prompts/LearningJapanese.md",
-    "Readings/Builder 模式在 Go 语言中的应用.md",
-    "Readings/高性能分布式存储系统关键技术调研.md",
     "Assets/Images/DSSResearch_p9.webp",
     "Assets/Images/DSSResearch_p9.webp.crdownload",
     "Assets/Images/DSSResearch_p8.webp",
