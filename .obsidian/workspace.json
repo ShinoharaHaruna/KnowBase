@@ -4,20 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "157f3b4a5d71f38a",
+        "id": "d08001854bd5a4de",
         "type": "tabs",
         "children": [
           {
-            "id": "5c42b67e3180fc63",
+            "id": "b00e11d4982222a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Weeks/周报 - 第1周.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "周报 - 第1周"
+            }
+          },
+          {
+            "id": "7aa190b6a7739ab0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/类型断言.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "类型断言"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +91,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,8 +230,27 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "5c42b67e3180fc63",
+  "active": "7aa190b6a7739ab0",
   "lastOpenFiles": [
+    "Weeks/周报 - 第1周.md",
+    "Prompts/LearningTech.md",
+    "Prompts/PromptsIndex.md",
+    "Readings/除了更多裁员，AI还能带来什么？【AI中局思考01】.md",
+    "(Metadata)/OngoingNotes.md",
+    "Weeks/周报 - 第9周.md",
+    "(Metadata)/Tags.md",
+    "Prompts/Tags Generator.md",
+    "Weeks/周报 - 第8周.md",
+    "Weeks/周报 - 第0周.md",
+    "Weeks/周报 - 第2周.md",
+    "Weeks/周报 - 第3周.md",
+    "Weeks/周报 - 第4周.md",
+    "Weeks/周报 - 第5周.md",
+    "Weeks/周报 - 第6周.md",
+    "Weeks/周报 - 第7周.md",
+    "README.md",
+    "(Template)/WeekReport.md",
+    "(Template)/Wiki.md",
     "Readings/代码与工程之外【2】从CRUD到商业杠杆：重新理解程序员的核心价值.md",
     "Dataview Query Console.md",
     "(Metadata)/ResentNotes.md",
@@ -217,25 +258,6 @@
     "Readings/每个人都应该掌握的快速调研法.md",
     "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
     "Readings/高性能分布式存储系统关键技术调研.md",
-    "Readings/AI 驱动对象存储成为企业存储主导技术.md",
-    "Readings/尽量不要在公共场合做诚挚的自我批评。.md",
-    "Readings/其实几乎所有人每天都在用 K8S 你真的了解 K8S 吗？【1】.md",
-    "Readings/降本增效，开猿节流 K8S 是如何影响工程师发量和饭碗的？【2】.md",
-    "Readings/Go 并发控制：context 源码解读.md",
-    "Readings/Builder 模式在 Go 语言中的应用.md",
-    "Readings/【互联网简史特别篇】寒冬真实存在吗？互联网行业的春天什么时候到来？.md",
-    "Readings/【年度总结】一口气了解2024年的全球经济.md",
-    "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
-    "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
-    "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
-    "Readings/所以... Nix 到底是什么？.md",
-    "Readings/沟通力强的人，说话的顺序是这样的.md",
-    "Readings/我发现真正厉害的人，都很会「闲聊」.md",
-    "(Metadata)/Structure.md",
-    "(Metadata)/OngoingNotes.md",
-    "(Metadata)/Tags.md",
-    "Weeks/周报 - 第8周.md",
-    "Prompts/Tags Generator.md",
     "Assets/Images/FromCRUDtoBusinessLeverage_p1.webp",
     "Assets/Images/FromCRUDtoBusinessLeverage_p1.webp.crdownload",
     "Whiteboard.canvas",

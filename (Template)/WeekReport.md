@@ -13,8 +13,13 @@ title: <%*
   tR += `周报 - 第${weekNumber}周`;
 %>
 date created: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
-tags: 
-status:
+tags:
+  - "#周报/<%*
+  tR += year;
+%>/<%*
+  tR += weekNumber;
+%>"
+status: Ongoing
 ---
 
 <%* tp.hooks.on_all_templates_executed(async () => {
