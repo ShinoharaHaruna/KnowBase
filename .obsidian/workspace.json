@@ -4,41 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "d08001854bd5a4de",
+        "id": "fa71c7e2f5ad7133",
         "type": "tabs",
         "children": [
           {
-            "id": "b00e11d4982222a0",
+            "id": "bf9ff45668f7c836",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weeks/周报 - 第1周.md",
+                "file": "Readings/One Small Step/什么是 GGUF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "周报 - 第1周"
+              "title": "什么是 GGUF"
             }
           },
           {
-            "id": "7aa190b6a7739ab0",
+            "id": "182cd65255e85b64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/类型断言.md",
+                "file": "(Metadata)/Tags.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "类型断言"
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "91440e459c6f95c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weeks/周报 - 第10周.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "周报 - 第10周"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,9 +104,23 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "aa569d0975bdacf4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Weeks/周报 - 第9周.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "周报 - 第9周 的大纲"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,20 +179,6 @@
             }
           },
           {
-            "id": "aa569d0975bdacf4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
             "id": "ae4f3b3978897224",
             "type": "leaf",
             "state": {
@@ -206,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -230,17 +244,46 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "7aa190b6a7739ab0",
+  "active": "bf9ff45668f7c836",
   "lastOpenFiles": [
-    "Weeks/周报 - 第1周.md",
-    "Prompts/LearningTech.md",
-    "Prompts/PromptsIndex.md",
-    "Readings/除了更多裁员，AI还能带来什么？【AI中局思考01】.md",
-    "(Metadata)/OngoingNotes.md",
-    "Weeks/周报 - 第9周.md",
     "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
+    "Prompts/PromptsIndex.md",
+    "Readings/One Small Step/什么是 GGUF.md",
+    "Weeks/周报 - 第10周.md",
+    "Weeks/周报 - 第9周.md",
+    "Assets/Images/gguf-file-structure.png",
+    "Assets/Images/gguf-file-structure.png.crdownload",
+    "Readings/One Small Step/Readme.md",
+    "Readings/One Small Step/LICENSE.txt",
+    "Readings/One Small Step/Unconfirmed 823001.crdownload",
+    "LICENSE.md",
+    "Readings/Go 错误处理指北：pkg／errors 源码解读.md",
+    "Readings/One Small Step",
+    "Whiteboard.canvas",
+    "Kanban.md",
+    "(Metadata)/OngoingNotes.md",
     "Weeks/周报 - 第8周.md",
+    "Readings/Redis Stream 队列和 Redis 多线程.md",
+    "Assets/Images/RedisStream_p14.png",
+    "Assets/Images/RedisStream_p14.png.crdownload",
+    "Assets/Images/RedisStream_p13.png",
+    "Assets/Images/RedisStream_p13.png.crdownload",
+    "Assets/Images/RedisStream_p12.png",
+    "Assets/Images/RedisStream_p12.png.crdownload",
+    "Assets/Images/RedisStream_p11.png",
+    "Assets/Images/RedisStream_p11.png.crdownload",
+    "Assets/Images/RedisStream_p10.png",
+    "Assets/Images/RedisStream_p10.png.crdownload",
+    "Assets/Images/RedisStream_p9.png",
+    "Assets/Images/RedisStream_p9.png.crdownload",
+    "Assets/Images/RedisStream_p8.png",
+    "Assets/Images/RedisStream_p7.png",
+    "Assets/Images/RedisStream_p6.gif",
+    "Weeks/周报 - 第1周.md",
+    "Wiki/类型断言.md",
+    "Prompts/LearningTech.md",
+    "Readings/除了更多裁员，AI还能带来什么？【AI中局思考01】.md",
     "Weeks/周报 - 第0周.md",
     "Weeks/周报 - 第2周.md",
     "Weeks/周报 - 第3周.md",
@@ -248,36 +291,6 @@
     "Weeks/周报 - 第5周.md",
     "Weeks/周报 - 第6周.md",
     "Weeks/周报 - 第7周.md",
-    "README.md",
-    "(Template)/WeekReport.md",
-    "(Template)/Wiki.md",
-    "Readings/代码与工程之外【2】从CRUD到商业杠杆：重新理解程序员的核心价值.md",
-    "Dataview Query Console.md",
-    "(Metadata)/ResentNotes.md",
-    "Readings/代码与工程之外【1】如何从面试八股文中学到真正的技术？.md",
-    "Readings/每个人都应该掌握的快速调研法.md",
-    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
-    "Readings/高性能分布式存储系统关键技术调研.md",
-    "Assets/Images/FromCRUDtoBusinessLeverage_p1.webp",
-    "Assets/Images/FromCRUDtoBusinessLeverage_p1.webp.crdownload",
-    "Whiteboard.canvas",
-    "Assets/Images/DSSTechSelection_p1.webp",
-    "Assets/Images/DSSTechSelection_p1.webp.crdownload",
-    "Assets/Images/GoErrorHandlingGuide_p1.png",
-    "Assets/Images/GoErrorHandlingGuide_p1.png.crdownload",
-    "Assets/Images/DSSResearch_p9.webp",
-    "Assets/Images/DSSResearch_p9.webp.crdownload",
-    "Assets/Images/DSSResearch_p8.webp",
-    "Assets/Images/DSSResearch_p8.webp.crdownload",
-    "Assets/Images/DSSResearch_p7.webp",
-    "Assets/Images/DSSResearch_p7.webp.crdownload",
-    "Assets/Images/DSSResearch_p6.webp",
-    "Assets/Images/DSSResearch_p6.webp.crdownload",
-    "Assets/Images/DSSResearch_p5.webp",
-    "Assets/Images/DSSResearch_p5.webp.crdownload",
-    "Assets/Images/DSSResearch_p4.webp",
-    "Assets/Images/DSSResearch_p4.webp.crdownload",
-    "Assets/Images/DSSResearch_p3.webp",
-    "Assets/Images/DSSResearch_p3.webp.crdownload"
+    "README.md"
   ]
 }

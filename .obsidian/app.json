@@ -15,5 +15,7 @@
   "spellcheck": false,
   "defaultViewMode": "source",
   "readableLineLength": false,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "Assets"
 }
