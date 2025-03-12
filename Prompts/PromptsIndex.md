@@ -21,5 +21,8 @@
 
 ## 工具
 
+- [MetaPrompt](MetaPrompt.md)：摘自 DeepSeek 的文档，用于生成 prompt。Link：https://api-docs.deepseek.com/prompt-library
+
 - [ProjectDescriptor](ProjectDescriptor.md)：用来描述一个仓库项目，快速形成锚点的 prompt
 - [Reading List Organizer](Reading%20List%20Organizer.md)：整理阅读列表
+- [WriteWiki](WriteWiki.md)：用来通过一个 topic 生成 wiki，搭配 claude 之类的模型非常好使
