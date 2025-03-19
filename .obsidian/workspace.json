@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f82ad721bc2e7a04",
+        "id": "ef4323f541792961",
         "type": "tabs",
         "children": [
           {
-            "id": "519f852c085aad05",
+            "id": "2e7da911ab7ab2b5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,12 +76,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Weeks/周报 - 第12周.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "周报 - 第12周 的大纲"
             }
           }
         ]
@@ -208,12 +209,13 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "519f852c085aad05",
+  "active": "2e7da911ab7ab2b5",
   "lastOpenFiles": [
+    "Wiki/Java.md",
     "Weeks/周报 - 第12周.md",
-    "(Metadata)/Tags.md",
-    "Weeks/周报 - 第11周.md",
     "Wiki/缓存一致性.md",
+    "Weeks/周报 - 第11周.md",
+    "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
     "Prompts/PromptsIndex.md",
     "README.md",
@@ -255,7 +257,6 @@
     "Assets/Images/RedisStream_p7.png",
     "Assets/Images/RedisStream_p6.gif",
     "Weeks/周报 - 第1周.md",
-    "Wiki/类型断言.md",
-    "Readings/除了更多裁员，AI还能带来什么？【AI中局思考01】.md"
+    "Wiki/类型断言.md"
   ]
 }
