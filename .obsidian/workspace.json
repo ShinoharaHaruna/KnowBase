@@ -4,17 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "ef4323f541792961",
+        "id": "80bc145288e0e44b",
         "type": "tabs",
         "children": [
           {
-            "id": "2e7da911ab7ab2b5",
+            "id": "807e273dbd7bcdb2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Weeks/周报 - 第12周.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "周报 - 第12周"
+            }
+          },
+          {
+            "id": "99ae4dc3f6d9327a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Java"
             }
           }
         ]
@@ -89,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 353.5
   },
   "right": {
     "id": "6e8c6d2834e05bde",
@@ -105,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Weeks/周报 - 第12周.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "周报 - 第12周 的反向链接列表"
             }
           },
           {
@@ -123,11 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Weeks/周报 - 第12周.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "周报 - 第12周 的出链列表"
             }
           },
           {
@@ -184,13 +206,11 @@
               "title": "PromptsIndex"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
-    "collapsed": true
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,24 +229,25 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "2e7da911ab7ab2b5",
+  "active": "807e273dbd7bcdb2",
   "lastOpenFiles": [
-    "Wiki/Java.md",
+    "(Metadata)/OngoingNotes.md",
     "Weeks/周报 - 第12周.md",
-    "Wiki/缓存一致性.md",
-    "Weeks/周报 - 第11周.md",
+    "Wiki/IO Multiplexing.md",
+    "Wiki/Java.md",
+    "Readings/Hash 函数的不动点.md",
     "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
     "Prompts/PromptsIndex.md",
     "README.md",
-    "Readings/Hash 函数的不动点.md",
+    "Wiki/缓存一致性.md",
+    "Weeks/周报 - 第11周.md",
     "Weeks/周报 - 第10周.md",
     "Prompts/WriteWiki.md",
     "Prompts/MetaPrompt.md",
     "Prompts/FastKnowing.md",
     "Prompts/LearningTech.md",
     "Readings/其实几乎所有人每天都在用 K8S 你真的了解 K8S 吗？【1】.md",
-    "(Metadata)/OngoingNotes.md",
     "Readings/One Small Step/什么是 GGUF.md",
     "Weeks/周报 - 第9周.md",
     "Assets/Images/gguf-file-structure.png",
@@ -256,7 +277,6 @@
     "Assets/Images/RedisStream_p8.png",
     "Assets/Images/RedisStream_p7.png",
     "Assets/Images/RedisStream_p6.gif",
-    "Weeks/周报 - 第1周.md",
-    "Wiki/类型断言.md"
+    "Weeks/周报 - 第1周.md"
   ]
 }
