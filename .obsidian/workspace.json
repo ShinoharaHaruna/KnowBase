@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "670809387b8565f9",
+        "id": "031dfed4e1ae7d6e",
         "type": "tabs",
         "children": [
           {
-            "id": "d378ac930f070519",
+            "id": "57899f74ec299340",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Readings/小林 Coding/图解MySQL.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "图解MySQL"
             }
           }
         ]
@@ -76,20 +81,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wiki/Java.md",
+                "file": "Readings/小林 Coding/图解MySQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Java 的大纲"
+              "title": "图解MySQL 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 228.5
   },
   "right": {
     "id": "6e8c6d2834e05bde",
@@ -210,9 +216,19 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "d378ac930f070519",
+  "active": "57899f74ec299340",
   "lastOpenFiles": [
-    "Readings/图解MySQL.md",
+    "Wiki/缓存一致性.md",
+    "Readings/小林 Coding/图解MySQL.md",
+    "(Template)/Info.md",
+    "(Template)/Tip.md",
+    "(Template)/QA.md",
+    "Readings/小林 Coding/Readme.md",
+    "Readings/One Small Step/Readme.md",
+    "Readings/小林 Coding",
+    "Assets/mysql查询流程.webp",
+    "Weeks/周报 - 第12周.md",
+    "Weeks/周报 - 第11周.md",
     "(Metadata)/OngoingNotes.md",
     "Wiki/IO Multiplexing.md",
     "Learnguage/日本語/20250115.md",
@@ -221,28 +237,20 @@
     "Wiki/类型断言.md",
     "Wiki/Merkle Tree.md",
     "Wiki/Raft.md",
-    "Weeks/周报 - 第12周.md",
     "Readings/Hash 函数的不动点.md",
     "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
     "Prompts/PromptsIndex.md",
     "README.md",
-    "Wiki/缓存一致性.md",
-    "Weeks/周报 - 第11周.md",
     "Weeks/周报 - 第10周.md",
     "Prompts/WriteWiki.md",
     "Prompts/MetaPrompt.md",
     "Prompts/FastKnowing.md",
     "Prompts/LearningTech.md",
-    "Readings/其实几乎所有人每天都在用 K8S 你真的了解 K8S 吗？【1】.md",
-    "Readings/One Small Step/什么是 GGUF.md",
-    "Weeks/周报 - 第9周.md",
     "Assets/Images/gguf-file-structure.png",
     "Assets/Images/gguf-file-structure.png.crdownload",
-    "Readings/One Small Step/Readme.md",
     "Readings/One Small Step/LICENSE.txt",
     "Readings/One Small Step/Unconfirmed 823001.crdownload",
-    "LICENSE.md",
     "Readings/One Small Step",
     "Assets/Images/RedisStream_p14.png",
     "Assets/Images/RedisStream_p14.png.crdownload",
@@ -255,9 +263,7 @@
     "Assets/Images/RedisStream_p10.png",
     "Assets/Images/RedisStream_p10.png.crdownload",
     "Assets/Images/RedisStream_p9.png",
-    "Assets/Images/RedisStream_p9.png.crdownload",
     "Assets/Images/RedisStream_p8.png",
-    "Assets/Images/RedisStream_p7.png",
-    "Assets/Images/RedisStream_p6.gif"
+    "Assets/Images/RedisStream_p7.png"
   ]
 }

@@ -1,0 +1,2 @@
+> [!tip] Tip
+> Content
