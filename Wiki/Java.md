@@ -1,7 +1,7 @@
 ---
-title: Java
+title: Java From 0 to 1
 date created: 2025-03-18 12:09:59
-tags:
+tags: 
 category:
 ---
 
