@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "031dfed4e1ae7d6e",
+        "id": "5e12fdd487829992",
         "type": "tabs",
         "children": [
           {
-            "id": "57899f74ec299340",
+            "id": "2f02af8bbcf2973e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readings/小林 Coding/图解MySQL.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "图解MySQL"
+              "title": "新标签页"
             }
           }
         ]
@@ -81,21 +76,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readings/小林 Coding/图解MySQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "图解MySQL 的大纲"
+              "title": "大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 281.5
   },
   "right": {
     "id": "6e8c6d2834e05bde",
@@ -111,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wiki/Java.md",
+                "file": "Readings/小林 Coding/图解MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Java 的反向链接列表"
+              "title": "图解MySQL 的反向链接列表"
             }
           },
           {
@@ -130,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wiki/Java.md",
+                "file": "Readings/小林 Coding/图解MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Java 的出链列表"
+              "title": "图解MySQL 的出链列表"
             }
           },
           {
@@ -192,11 +185,12 @@
               "title": "PromptsIndex"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
+    "width": 391.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -216,10 +210,22 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "57899f74ec299340",
+  "active": "2f02af8bbcf2973e",
   "lastOpenFiles": [
-    "Wiki/缓存一致性.md",
+    "Weeks/周报 - 第15周.md",
+    "README.md",
+    "Weeks/周报 - 第14周.md",
+    "Weeks/周报 - 第13周.md",
+    "(Metadata)/OngoingNotes.md",
+    "Weeks/周报 - 第12周.md",
+    "Wiki/Java.md",
     "Readings/小林 Coding/图解MySQL.md",
+    "Wiki/限流与并发控制.md",
+    "(Metadata)/Tags.md",
+    "Prompts/Tags Generator.md",
+    "Prompts/PromptsIndex.md",
+    "Prompts/WriteWiki.md",
+    "Wiki/缓存一致性.md",
     "(Template)/Info.md",
     "(Template)/Tip.md",
     "(Template)/QA.md",
@@ -227,26 +233,14 @@
     "Readings/One Small Step/Readme.md",
     "Readings/小林 Coding",
     "Assets/mysql查询流程.webp",
-    "Weeks/周报 - 第12周.md",
     "Weeks/周报 - 第11周.md",
-    "(Metadata)/OngoingNotes.md",
     "Wiki/IO Multiplexing.md",
     "Learnguage/日本語/20250115.md",
-    "Wiki/Java.md",
     "Whiteboard.canvas",
     "Wiki/类型断言.md",
     "Wiki/Merkle Tree.md",
     "Wiki/Raft.md",
     "Readings/Hash 函数的不动点.md",
-    "(Metadata)/Tags.md",
-    "Prompts/Tags Generator.md",
-    "Prompts/PromptsIndex.md",
-    "README.md",
-    "Weeks/周报 - 第10周.md",
-    "Prompts/WriteWiki.md",
-    "Prompts/MetaPrompt.md",
-    "Prompts/FastKnowing.md",
-    "Prompts/LearningTech.md",
     "Assets/Images/gguf-file-structure.png",
     "Assets/Images/gguf-file-structure.png.crdownload",
     "Readings/One Small Step/LICENSE.txt",
