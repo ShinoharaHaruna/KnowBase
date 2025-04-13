@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e12fdd487829992",
+        "id": "76ea26a052e46b1f",
         "type": "tabs",
         "children": [
           {
-            "id": "2f02af8bbcf2973e",
+            "id": "8d093bb09a3e153d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,12 +76,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Prompts/Debate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Debate 的大纲"
             }
           }
         ]
@@ -210,22 +211,25 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "2f02af8bbcf2973e",
+  "active": "8d093bb09a3e153d",
   "lastOpenFiles": [
+    "Wiki/Raft.md",
+    "Wiki/IO Multiplexing.md",
+    "Wiki/缓存一致性.md",
+    "Wiki/限流与并发控制.md",
+    "Prompts/Debate.md",
+    "Wiki/Java.md",
+    "Weeks/周报 - 第14周.md",
     "Weeks/周报 - 第15周.md",
     "README.md",
-    "Weeks/周报 - 第14周.md",
     "Weeks/周报 - 第13周.md",
     "(Metadata)/OngoingNotes.md",
     "Weeks/周报 - 第12周.md",
-    "Wiki/Java.md",
     "Readings/小林 Coding/图解MySQL.md",
-    "Wiki/限流与并发控制.md",
     "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
     "Prompts/PromptsIndex.md",
     "Prompts/WriteWiki.md",
-    "Wiki/缓存一致性.md",
     "(Template)/Info.md",
     "(Template)/Tip.md",
     "(Template)/QA.md",
@@ -234,13 +238,10 @@
     "Readings/小林 Coding",
     "Assets/mysql查询流程.webp",
     "Weeks/周报 - 第11周.md",
-    "Wiki/IO Multiplexing.md",
     "Learnguage/日本語/20250115.md",
     "Whiteboard.canvas",
     "Wiki/类型断言.md",
     "Wiki/Merkle Tree.md",
-    "Wiki/Raft.md",
-    "Readings/Hash 函数的不动点.md",
     "Assets/Images/gguf-file-structure.png",
     "Assets/Images/gguf-file-structure.png.crdownload",
     "Readings/One Small Step/LICENSE.txt",
