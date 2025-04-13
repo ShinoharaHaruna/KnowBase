@@ -11,10 +11,15 @@
             "id": "8d093bb09a3e153d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Weeks/周报 - 第15周.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "周报 - 第15周"
             }
           }
         ]
@@ -185,14 +190,23 @@
               "icon": "lucide-file",
               "title": "PromptsIndex"
             }
+          },
+          {
+            "id": "d8b2afe17dad76d0",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 391.5,
-    "collapsed": true
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,7 +222,8 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-projects:打开项目": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:创建新看板": false
+      "obsidian-kanban:创建新看板": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "8d093bb09a3e153d",
