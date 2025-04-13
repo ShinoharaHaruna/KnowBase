@@ -37,7 +37,7 @@
   "chatNoteContextTags": [],
   "enableIndexSync": true,
   "debug": false,
-  "enableEncryption": false,
+  "enableEncryption": true,
   "maxSourceChunks": 3,
   "groqApiKey": "",
   "activeModels": [
@@ -50,7 +50,8 @@
       "plusExclusive": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-4o",
@@ -60,7 +61,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-4o-mini",
@@ -70,7 +72,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-sonnet-latest",
@@ -80,7 +83,21 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "MyTan",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "http://127.0.0.1:52711/v1",
+      "apiKey": "enc_desk_djExy6ioAVSKdsz65n2UPOu2Vg==",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "displayName": "MyTan",
+      "enableCors": true
     },
     {
       "name": "o1-mini",
@@ -89,7 +106,8 @@
       "isBuiltIn": true,
       "capabilities": [
         "reasoning"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "o3-mini",
@@ -98,25 +116,29 @@
       "isBuiltIn": true,
       "capabilities": [
         "reasoning"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-haiku-latest",
       "provider": "anthropic",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "command-r",
       "provider": "cohereai",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "command-r-plus",
       "provider": "cohereai",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "gemini-2.0-pro-exp",
@@ -125,7 +147,8 @@
       "isBuiltIn": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gemini-2.0-flash",
@@ -134,19 +157,22 @@
       "isBuiltIn": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "azure-openai",
       "provider": "azure openai",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "deepseek-chat",
       "provider": "deepseek",
       "enabled": true,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "deepseek-reasoner",
@@ -155,20 +181,8 @@
       "isBuiltIn": true,
       "capabilities": [
         "reasoning"
-      ]
-    },
-    {
-      "name": "MyTan",
-      "provider": "3rd party (openai-format)",
-      "enabled": true,
-      "isBuiltIn": false,
-      "baseUrl": "http://127.0.0.1:52711/v1",
-      "apiKey": "123",
-      "isEmbeddingModel": false,
-      "capabilities": [],
-      "stream": true,
-      "displayName": "MyTan",
-      "enableCors": true
+      ],
+      "apiKey": ""
     }
   ],
   "activeEmbeddingModels": [
@@ -179,7 +193,8 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
-      "plusExclusive": true
+      "plusExclusive": true,
+      "apiKey": ""
     },
     {
       "name": "copilot-plus-large",
@@ -190,7 +205,8 @@
       "core": true,
       "plusExclusive": true,
       "believerExclusive": true,
-      "dimensions": 1024
+      "dimensions": 1024,
+      "apiKey": ""
     },
     {
       "name": "copilot-plus-multilingual",
@@ -200,7 +216,8 @@
       "isEmbeddingModel": true,
       "core": true,
       "plusExclusive": true,
-      "dimensions": 512
+      "dimensions": 512,
+      "apiKey": ""
     },
     {
       "name": "text-embedding-3-small",
@@ -208,35 +225,40 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true,
-      "core": true
+      "core": true,
+      "apiKey": ""
     },
     {
       "name": "text-embedding-3-large",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
     },
     {
       "name": "embed-multilingual-light-v3.0",
       "provider": "cohereai",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
     },
     {
       "name": "text-embedding-004",
       "provider": "google",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
     },
     {
       "name": "azure-openai",
       "provider": "azure openai",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
     }
   ],
   "embeddingRequestsPerMin": 90,

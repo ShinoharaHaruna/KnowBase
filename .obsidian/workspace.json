@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "76ea26a052e46b1f",
+        "id": "f2c7a68438136f87",
         "type": "tabs",
         "children": [
           {
-            "id": "8d093bb09a3e153d",
+            "id": "e60cac7b9e633dc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weeks/周报 - 第15周.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "周报 - 第15周"
+              "title": "新标签页"
             }
           }
         ]
@@ -226,8 +221,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8d093bb09a3e153d",
+  "active": "e60cac7b9e633dc8",
   "lastOpenFiles": [
+    "Weeks/周报 - 第16周.md",
+    "README.md",
+    "Weeks/周报 - 第15周.md",
     "Wiki/Raft.md",
     "Wiki/IO Multiplexing.md",
     "Wiki/缓存一致性.md",
@@ -235,8 +233,6 @@
     "Prompts/Debate.md",
     "Wiki/Java.md",
     "Weeks/周报 - 第14周.md",
-    "Weeks/周报 - 第15周.md",
-    "README.md",
     "Weeks/周报 - 第13周.md",
     "(Metadata)/OngoingNotes.md",
     "Weeks/周报 - 第12周.md",
@@ -256,7 +252,6 @@
     "Learnguage/日本語/20250115.md",
     "Whiteboard.canvas",
     "Wiki/类型断言.md",
-    "Wiki/Merkle Tree.md",
     "Assets/Images/gguf-file-structure.png",
     "Assets/Images/gguf-file-structure.png.crdownload",
     "Readings/One Small Step/LICENSE.txt",
