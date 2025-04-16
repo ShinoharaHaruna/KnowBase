@@ -268,7 +268,10 @@
   "showRelevantNotes": true,
   "numPartitions": 1,
   "promptUsageTimestamps": {
-    "Debate": 1744554260258
+    "Debate": 1744554260258,
+    "MetaPrompt": 1744763748885,
+    "LearningTech": 1744787506349,
+    "TechLeader": 1744764872802
   },
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [

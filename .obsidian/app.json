@@ -17,5 +17,6 @@
   "readableLineLength": false,
   "showIndentGuide": true,
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "Assets"
+  "attachmentFolderPath": "Assets",
+  "alwaysUpdateLinks": true
 }

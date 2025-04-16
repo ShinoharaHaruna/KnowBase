@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f2c7a68438136f87",
+        "id": "7497b98124c5d9bd",
         "type": "tabs",
         "children": [
           {
-            "id": "e60cac7b9e633dc8",
+            "id": "bd788eb1dedfd696",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,13 +76,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prompts/Debate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Debate 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -170,7 +169,7 @@
             }
           },
           {
-            "id": "7543c0c901f80f4d",
+            "id": "1e2cf1a4a7c3b0e0",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -197,11 +196,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 437.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,54 +220,53 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e60cac7b9e633dc8",
+  "active": "bd788eb1dedfd696",
   "lastOpenFiles": [
-    "Weeks/周报 - 第16周.md",
-    "README.md",
-    "Weeks/周报 - 第15周.md",
-    "Wiki/Raft.md",
-    "Wiki/IO Multiplexing.md",
-    "Wiki/缓存一致性.md",
-    "Wiki/限流与并发控制.md",
-    "Prompts/Debate.md",
-    "Wiki/Java.md",
-    "Weeks/周报 - 第14周.md",
-    "Weeks/周报 - 第13周.md",
-    "(Metadata)/OngoingNotes.md",
-    "Weeks/周报 - 第12周.md",
-    "Readings/小林 Coding/图解MySQL.md",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（九）：领域事件.md",
     "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
+    "Weeks/周报 - 第16周.md",
+    "Readings/码如云 DDD/Readme.md",
+    "Assets/Images/DDD_Introduction_9.1.png",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（八）：应用服务与领域服务.md",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（五）：请求处理流程.md",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（六）：聚合根与资源库.md",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（七）：实体与值对象.md",
+    "Assets/Images/DDD_Introduction_7.3.png",
     "Prompts/PromptsIndex.md",
-    "Prompts/WriteWiki.md",
-    "(Template)/Info.md",
-    "(Template)/Tip.md",
-    "(Template)/QA.md",
-    "Readings/小林 Coding/Readme.md",
+    "Assets/Images/DDD_Introduction_7.2.png",
+    "Assets/Images/DDD_Introduction_7.1.png",
+    "Wiki/分布式事务.md",
+    "Assets/Images/DDD_Introduction_5.5.png",
+    "Assets/Images/DDD_Introduction_5.4.png",
+    "Assets/Images/DDD_Introduction_5.3.png",
+    "Assets/Images/DDD_Introduction_5.2.png",
+    "Assets/Images/DDD_Introduction_5.1.png",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（四）：代码工程结构.md",
+    "Assets/Images/DDD_Introduction_4.9.png",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（三）：战略设计.md",
+    "README.md",
+    "Prompts/MetaPrompt.md",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（二）：DDD 概念大白话.md",
+    "Markdown Playground.md",
+    "Prompts/DailyReportHelper.md",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（一）：DDD 入门.md",
+    "Weeks/周报 - 第15周.md",
     "Readings/One Small Step/Readme.md",
+    "Readings/小林 Coding/Readme.md",
+    "Prompts/TechLeader.md",
+    "Readings/小林 Coding/图解MySQL.md",
+    "Readings/码如云 DDD",
+    "Prompts/LearningTech.md",
     "Readings/小林 Coding",
-    "Assets/mysql查询流程.webp",
-    "Weeks/周报 - 第11周.md",
-    "Learnguage/日本語/20250115.md",
     "Whiteboard.canvas",
-    "Wiki/类型断言.md",
-    "Assets/Images/gguf-file-structure.png",
     "Assets/Images/gguf-file-structure.png.crdownload",
     "Readings/One Small Step/LICENSE.txt",
     "Readings/One Small Step/Unconfirmed 823001.crdownload",
     "Readings/One Small Step",
-    "Assets/Images/RedisStream_p14.png",
     "Assets/Images/RedisStream_p14.png.crdownload",
-    "Assets/Images/RedisStream_p13.png",
     "Assets/Images/RedisStream_p13.png.crdownload",
-    "Assets/Images/RedisStream_p12.png",
     "Assets/Images/RedisStream_p12.png.crdownload",
-    "Assets/Images/RedisStream_p11.png",
-    "Assets/Images/RedisStream_p11.png.crdownload",
-    "Assets/Images/RedisStream_p10.png",
-    "Assets/Images/RedisStream_p10.png.crdownload",
-    "Assets/Images/RedisStream_p9.png",
-    "Assets/Images/RedisStream_p8.png",
-    "Assets/Images/RedisStream_p7.png"
+    "Assets/Images/RedisStream_p11.png.crdownload"
   ]
 }
