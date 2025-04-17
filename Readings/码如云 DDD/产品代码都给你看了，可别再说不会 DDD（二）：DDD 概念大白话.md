@@ -24,7 +24,7 @@ DDD 中的概念，说多不多，说少不少，一个新手在面对各种 DDD
 
 DDD 分为**战略设计**和**战术设计**，战略设计是一种宏观的顶层设计，而战术设计则更偏向于代码落地实践。
 
-![](../../Assets/Images/DDD_Introduction_2.1.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_2.1.png)
 
 战略设计中有通用语言、领域、子域和限界上下文等概念，这些概念不好理解得清楚，也不好讲得清楚。但是，从本质上讲，**DDD 的战略设计只在解决一个问题，即软件的模块化划分的问题**。为此，我们将在下一篇 [战略设计](https://docs.mryqr.com/ddd-strategic-design) 中进行详细阐述。
 

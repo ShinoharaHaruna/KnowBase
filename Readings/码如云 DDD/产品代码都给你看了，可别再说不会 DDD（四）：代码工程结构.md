@@ -24,7 +24,7 @@ status: Finished
 
 在上一篇 [战略设计](https://docs.mryqr.com/ddd-strategic-design) 中我们提到，码如云是一个单体项目，其通过 Java 分包的方式划分出了 3 个限界上下文，即 3 个模块。对于正在搞微服务的读者来说，可不要被 “单体” 二字吓跑了，本文所讲解的绝大多数内容既适合于单体，也适合于微服务。
 
-![](../../Assets/Images/DDD_Introduction_4.1.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.1.png)
 
 以上是码如云工程的目录结构，在根分包 `src/main/java/com/mryqr` 下，分出了 `core`、`integration` 和 `management`3 个模块包，分别对应 “核心上下文”、“集成上下文” 和 “后台管理上下文”，对于微服务系统来说，这 3 个分包则不存在，因为每个分包都有自己单独的微服务项目，也即 DDD 的限界上下文和微服务存在一一对应的关系。与这 3 个模块包同级的还有一个 `common` 包，该包并不是一个业务模块，而是所有模块所共享的一些基础设施，比如 Spring 的配置、邮件发送机制等。在 `src` 目录下，还包含 `test`、`apiTest` 和 `gatling` 三个目录，分别对应单元测试，API 测试和性能测试代码。此外，`deploy` 目录用于存放与部署相关的文件，`doc` 目录用于存放项目文档，`gradle` 目录则用于存放各种 Gradle 配置文件。
 
@@ -32,11 +32,11 @@ status: Finished
 
 在以上提及的各种模块包中，程序员们最为关注的估计是 `core` 包之下应该如何进一步分包了，因为 `core` 是整个项目的核心业务模块。
 
-![](../../Assets/Images/DDD_Introduction_4.2.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.2.png)
 
 在做分包时，一个最常见的反模式是将技术分包作为上层分包，然后在各技术分包下再划分业务包。DDD 社区更加推崇的分包方式是 “先业务，后技术”，即上层包先按照业务进行划分，然后在各个业务包内部可以再按照技术分包。
 
-![](../../Assets/Images/DDD_Introduction_4.3.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.3.png)
 
 在码如云的 `core` 模块包中，首先是基于业务的分包，包含 `app`、 `assignment` 等几十个包，其中的 `app` 对应于**应用**聚合根，而 `assignment` 对应于**任务**聚合根，也即每一个业务分包对应一个聚合根。在每个业务分包下再做技术分包，其中包含以下子分包：
 
@@ -56,33 +56,33 @@ status: Finished
 
 在以上子分包中，`domain` 分包应是最大的一个分包，因为其中包含了所有的领域模型以及业务逻辑。在码如云项目的 `app` 业务包下，各个子分包所包含的代码量统计如下：
 
-![](../../Assets/Images/DDD_Introduction_4.4.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.4.png)
 
 可以看到，`domain` 包中所包含的代码量远远超过其他所有分包的总和。当然，我们并不是说所有 DDD 项目都需要满足这一点，而是强调在 DDD 中领域模型应该是代码的主体。
 
 接下来，让我们来看看各个子分包中都包含哪些内容，首先来看 `domain` 分包：
 
-![](../../Assets/Images/DDD_Introduction_4.5.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.5.png)
 
 在 `domain` 分包中，最重要的当属 `App` 聚合根了，除此之外还包含领域服务 `AppDomainService`，工厂 `AppFactory` 和资源库 `AppRepository`。这里的 `AppRepository` 是一个接口，其实现在 `infrastructure` 分包中。基于内聚原则，有些密切联系的类被放置在了下一级子分包中，比如 `attribute` 和 `page` 分包等。值得一提的是，用于存放领域事件的 `event` 包也被放置在了 `domain` 下，因为领域事件也是领域模型的一部分，不过领域事件的处理器类则放在了与 `domain` 同级的 `eventhandler` 包中，我们将在 [领域事件](https://docs.mryqr.com/ddd-domain-events) 中对此做详细讲解。
 
 `command` 包用于放置 [应用服务](https://docs.mryqr.com/ddd-application-service-and-domain-service) 以及请求数据类，这里的 “command” 即 [CQRS](https://docs.mryqr.com/ddd-cqrs) 中的 “C”，表示外界向软件系统所发起的一次命令。
 
-![](../../Assets/Images/DDD_Introduction_4.6.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.6.png)
 
 在 `command` 包中，应用服务 `AppCommandService` 用于接收外界的业务请求（命令）。`AppCommandService` 接收的输入参数为 Command 对象（以 “Command” 为后缀），Command 对象通过其名称表达业务意图，比如 `CopyAppCommand` 用于拷贝**应用**（这里的 “应用” 表示业务上的应用聚合根），`CreateAppCommand` 用于新建**应用**。
 
 `eventhandler` 用于存放领域事件的处理器类，这些类的地位相当于应用服务，它们并不是领域模型的一部分，只是与应用服务相似起编排协调作用。
 
-![](../../Assets/Images/DDD_Introduction_4.7.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.7.png)
 
 `infrastructure` 用于存放基础设施类，主要包含资源库的实现类：
 
-![](../../Assets/Images/DDD_Introduction_4.8.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.8.png)
 
 `query` 用于存放与数据查询相关的类，这里的 "query" 也即 CQRS 中的 “Q”，我们将在本系列的 [CQRS](https://docs.mryqr.com/ddd-cqrs) 中对此做详细讲解。
 
-![](../../Assets/Images/DDD_Introduction_4.9.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_4.9.png)
 
 ## 自动化测试
 

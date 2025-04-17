@@ -22,7 +22,7 @@ status: Finished
 
 为了方便读者直观概括性地了解领域事件的全景，我们先将从事件发布到消费整个过程中的关键节点展示在下图。在阅读过程中，读者可返回该图进行对应。
 
-![](../../Assets/Images/DDD_Introduction_9.1.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_9.1.png)
 
 ## 领域事件建模
 

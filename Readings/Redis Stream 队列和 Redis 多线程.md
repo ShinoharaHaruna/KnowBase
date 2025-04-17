@@ -20,7 +20,7 @@ status: Finished
 
 Stream 是 redis 5.0 增加的新特性，是一个支持多播的可持久化的消息队列，类似于 MQ 消息中间件，作者声明借鉴于 Kafka 设计的。
 
-![RedisStream_p1](../Assets/Images/RedisStream_p1.png)
+![RedisStream_p1](../Assets/Images/RedisStream/RedisStream_p1.png)
 
 <div align="center"><i>Stream 结构图</i></div>
 
@@ -218,7 +218,7 @@ redis 支持 单消费者和 消费组 两种消费方式，根据实际情况�
 "1678098290832-0"
 ```
 
-![RedisStream_p2](../Assets/Images/RedisStream_p2.gif)
+![RedisStream_p2](../Assets/Images/RedisStream/RedisStream_p2.gif)
 
 #### 消费组
 
@@ -270,7 +270,7 @@ redis 支持 单消费者和 消费组 两种消费方式，根据实际情况�
    11) "0"
 ```
 
-![RedisStream_p3](../Assets/Images/RedisStream_p3.png)
+![RedisStream_p3](../Assets/Images/RedisStream/RedisStream_p3.png)
 
 <div align="center"><i>消费组信息</i></div>
 
@@ -310,7 +310,7 @@ redis 支持 单消费者和 消费组 两种消费方式，根据实际情况�
        3) "22"
 ```
 
-![RedisStream_p4](../Assets/Images/RedisStream_p4.png)
+![RedisStream_p4](../Assets/Images/RedisStream/RedisStream_p4.png)
 
 <div align="center"><i>队列信息</i></div>
 
@@ -338,7 +338,7 @@ Stream 提供了 `xreadgroup` 指令可以进行消费组的组内消费，需�
             3) "20"
 ```
 
-![RedisStream_p5](../Assets/Images/RedisStream_p5.png)
+![RedisStream_p5](../Assets/Images/RedisStream/RedisStream_p5.png)
 
 ##### 阻塞等待消息
 
@@ -362,11 +362,11 @@ Stream 提供了 `xreadgroup` 指令可以进行消费组的组内消费，需�
             3) "22"
 ```
 
-![RedisStream_p6](../Assets/Images/RedisStream_p6.gif)
+![RedisStream_p6](../Assets/Images/RedisStream/RedisStream_p6.gif)
 
 ##### 查看 Stream 的消费组状态
 
-![RedisStream_p7](../Assets/Images/RedisStream_p7.png)
+![RedisStream_p7](../Assets/Images/RedisStream/RedisStream_p7.png)
 
 <div align="center"><i>消费组信息</i></div>
 
@@ -384,7 +384,7 @@ xack 关键字，streamtest2 队列名，cg1 消费组名称， 1678160832005-0 
 # 携带多个消息ID，如：127.0.0.1:0>xack streamtest2 cg1 1678160832005-0 1678160832004-0
 ```
 
-![RedisStream_p8](../Assets/Images/RedisStream_p8.png)
+![RedisStream_p8](../Assets/Images/RedisStream/RedisStream_p8.png)
 
 ## Redis 队列几种实现的总结
 
@@ -460,7 +460,7 @@ Reactor 称为 反应器（事件转发器），具体事件处理程序不调�
 
 服务器端的 Reactor 是一个线程对象，该线程会启动事件循环，并使用 Acceptor 事件处理器关注 ACCEPT 事件，这样 Reactor 会监听==客户端向服务器端发起的连接请求事件（也称之为 ACCEPT 事件）==。
 
-![RedisStream_p9](../Assets/Images/RedisStream_p9.png)
+![RedisStream_p9](../Assets/Images/RedisStream/RedisStream_p9.png)
 
 <div align="center"><i>单线程 Reactor-1</i></div>
 
@@ -475,7 +475,7 @@ Reactor 称为 反应器（事件转发器），具体事件处理程序不调�
 
 ## 单线程 Reactor + 工作者线程池
 
-![RedisStream_p10](../Assets/Images/RedisStream_p10.png)
+![RedisStream_p10](../Assets/Images/RedisStream/RedisStream_p10.png)
 
 <div align="center"><i>Reactor 工作者线程池</i></div>
 
@@ -488,7 +488,7 @@ Reactor 称为 反应器（事件转发器），具体事件处理程序不调�
 
 ## 多 Reactor 线程模式
 
-![RedisStream_p11](../Assets/Images/RedisStream_p11.png)
+![RedisStream_p11](../Assets/Images/RedisStream/RedisStream_p11.png)
 
 <div align="center"><i>多线程模型</i></div>
 
@@ -506,7 +506,7 @@ Redis **基于 Reactor 模式开发了自己的网络事件处理器（IO 多�
 
 ## 文件事件处理器组成部分
 
-![RedisStream_p12](../Assets/Images/RedisStream_p12.png)
+![RedisStream_p12](../Assets/Images/RedisStream/RedisStream_p12.png)
 
 <div align="center"><i>文件事件处理器</i></div>
 
@@ -529,7 +529,7 @@ I/O 多路复用器会监听多个 socket，不仅实现高性能的网络通信
 
 I/O 多路复用程序会负责监听多个客户端发起的 socket 连接。
 
-![RedisStream_p13](../Assets/Images/RedisStream_p13.png)
+![RedisStream_p13](../Assets/Images/RedisStream/RedisStream_p13.png)
 
 I/O 多路复用程序会**将所有产生事件的 socket 连接放入队列**， 通过该队列以**有序的，每次一个 socket** 的方式向文件事件分派器发送。
 
@@ -543,7 +543,7 @@ Redis 的 I/O 多路复用程序的所有功能都是通过包装常见的 selec
 
 因为 Redis 为每个 I/O 多路复用函数库都实现了相同的 API ， 所以 I/O 多路复用程序的底层实现是可以互换的。Redis 在 I/O 多路复用程序的实现源码 `ae.c` 文件中宏定义了相应规则，使得程序在编译时自动选择系统中性能最高的 I/O 多路复用函数库作为 Redis 的 I/O 多路复用程序的底层实现：性能降序排列。
 
-![RedisStream_p14](../Assets/Images/RedisStream_p14.png)
+![RedisStream_p14](../Assets/Images/RedisStream/RedisStream_p14.png)
 
 > 注：
 >

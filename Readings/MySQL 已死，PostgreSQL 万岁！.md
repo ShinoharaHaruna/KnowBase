@@ -31,17 +31,17 @@ Percona 的 CEO Peter Zaitsev 也直言不讳道：
 
 MySQL 官网发布的 "What's New in MySQL 9.0" 介绍了 9.0 版本引入的几个新特性，而 [**MySQL 9.0 新功能概览**](https://mp.weixin.qq.com/s?__biz=MzkzMjI2MDY5OQ==&mid=2247508287&idx=1&sn=0b43d3e0cc8e8bd6a140ce9dc713b3d6&scene=21#wechat_redirect "MySQL 9.0 新功能概览") 一文对此做了扼要的总结：
 
-![](../Assets/Images/MySQLisDead_1.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_1.png)
 
 **然后呢？就这些吗？这就没了！？**
 
 这确实是让人惊诧不已，因为 PostgreSQL 每年的大版本发布都有无数的新功能特性，例如计划今秋发布的 [**PostgreSQL 17**](https://mp.weixin.qq.com/s?__biz=MzU5ODAyNTM5Ng==&mid=2247487626&idx=1&sn=4c7662f5506259ab00ed7fcfa32360a3&scene=21#wechat_redirect "PostgreSQL 17") 还只是 beta1，就已然有着蔚为壮观的新增特性列表：
 
-![](../Assets/Images/MySQLisDead_2.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_2.png)
 
 而最近几年的 PostgreSQL 新增特性甚至足够专门编成一本书了。比如《[快速掌握 PostgreSQL 版本新特性](https://mp.weixin.qq.com/s?__biz=MzU1NTU5MDgwNQ==&mid=2247483982&idx=1&sn=e2a2b8db3b13acd0afa6327804fc07cc&scene=21#wechat_redirect "快速掌握PostgreSQL版本新特性")》便收录了 PostgreSQL 最近七年的重要新特性 —— 将目录塞的满满当当：
 
-![](../Assets/Images/MySQLisDead_3.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_3.png)
 
 回头再来看看 MySQL 9 更新的六个特性，后四个都属于无关痛痒，一笔带过的小修补，拿出来讲都嫌丢人。而前两个 **向量数据类型** 和 **JS 存储过程** 才算是重磅亮点。
 
@@ -61,7 +61,7 @@ MySQL 9.0 的向量数据类型只是 **BLOB** 类型换皮 —— 只加了�
 
 在 MySQL 9.0 的 [官方文档](https://dev.mysql.com/doc/refman/9.0/en/vector-functions.html) 上，只有三个关于向量类型的函数。抛开与字符串互转的两个，真正的功能函数就一个 `VECTOR_DIM`：返回向量的维度！（计算数组长度）
 
-![](../Assets/Images/MySQLisDead_4.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_4.png)
 
 **向量数据库的门槛不是一般的低** —— 有个向量**距离度量**函数就行（内积，10 行 C 代码，小学生水平编程任务），这样可以通过全表扫描求距离 + `ORDER BY d LIMIT n` 实现向量检索，至少是个可用的状态。
 
@@ -69,7 +69,7 @@ MySQL 9.0 的向量数据类型只是 **BLOB** 类型换皮 —— 只加了�
 
 不糊弄的例子可以参考 MySQL 的老对手 PostgreSQL。在过去一年中，PG 生态里就涌现出了至少六款向量数据库扩展（ `pgvector`，`pgvector.rs`，`pg_embedding`，`latern`，`pase`，`pgvectorscale`），并在你追我赶的赛马中卷出了新高度。最后的胜出者是 2021 年就出来的 `pgvector` ，它在无数开发者、厂商、用户的共同努力下，站在 PostgreSQL 的肩膀上，很快便达到了许多专业向量数据库都无法企及的高度，甚至可以说凭借一己之力，干死了这个数据库细分领域 —— 《[**向量数据库凉了吗？**](http://mp.weixin.qq.com/s?__biz=MzU5ODAyNTM5Ng==&mid=2247486505&idx=1&sn=a585c9ff22a81a8efe6b87ce9bd66cb1&chksm=fe4b39f2c93cb0e4c5d46f54e7ba9309dc0d66b5ac73bfe6722cc39f3959e47ae78210aeea1f&scene=21#wechat_redirect)》。
 
-![](../Assets/Images/MySQLisDead_5.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_5.png)
 
 在这一年内，`pgvector` [性能翻了 150 倍](https://jkatz05.com/post/postgres/pgvector-performance-150x-speedup/)，功能上更是有了翻天覆地的变化 —— `pgvector` 提供了 float 向量，半精度向量，bit 向量，稀疏向量几种数据类型；提供了 L1 距离，L2 距离，内积距离，汉明距离，Jaccard 距离度量函数；提供了各种向量、标量计算函数与运算符；支持 IVFFLAT，HNSW 两种专用向量索引算法（扩展的扩展 pgvectorscale 还提供了 DiskANN 索引）；支持了并行索引构建，向量量化处理，稀疏向量处理，子向量索引，混合检索，可以使用 SIMD 指令加速。这些丰富的功能，加上开源免费的协议，以及整个 PG 生态的合力与协同效应 —— 让 `pgvector` 大获成功，并与 PostgreSQL 一起，成为无数 AI 项目使用的默认（向量）数据库。
 
@@ -85,13 +85,13 @@ MySQL 9.0 的向量数据类型只是 **BLOB** 类型换皮 —— 只加了�
 
 如果我们查看 DB-Engine 近十二年的 “[**数据库热度趋势**](http://mp.weixin.qq.com/s?__biz=MzU5ODAyNTM5Ng==&mid=2247485216&idx=1&sn=1b59c7dda5f347145c2f39d2679a274d&chksm=fe4b32fbc93cbbed574358a3bcf127dd2e4f458638b46efaee1a885a5702a66a5d9ca18e3f90&scene=21#wechat_redirect)” ，不难发现只有 PostgreSQL 与 Mongo 两款 DBMS 在独领风骚 —— MongoDB (2009) 与 PostgreSQL 9.2 (2012) 都极为敏锐地把握住了互联网开发者的需求 —— 在 “JSON 崛起” 的第一时间就添加 [**JSON 特性支持**](http://mp.weixin.qq.com/s?__biz=MzU5ODAyNTM5Ng==&mid=2247485865&idx=1&sn=de418406c771122d98bb52ef4adb9e58&chksm=fe4b3c72c93cb5646cd07998603bef9aadd56b125db383f14584fa5ffdd74809b12660e1fc9d&scene=21#wechat_redirect)（文档数据库），从而在过去十年间吃下了数据库领域最大的增长红利。
 
-![](../Assets/Images/MySQLisDead_6.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_6.png)
 
 当然，MySQL 的干爹 —— Oracle 也在 2014 年底的 12.1 中添加了 JSON 特性与 Javascript 存储过程的支持 —— 而 MySQL 自己则不幸地等到了 2024 年才补上这一课 —— **但已经太迟了！**
 
 Oracle 支持用 C，SQL，PL/SQL，Pyhton，Java，Javascript 编写存储过程。但在 PostgreSQL 支持的二十多种存储过程语言面前，只能说也是小巫见大巫，只能甘拜下风了：
 
-![](../Assets/Images/MySQLisDead_7.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_7.png)
 
 不同于 PostgreSQL 与 Oracle 的开发理念，MySQL 的各种最佳实践里都不推荐使用存储过程 —— 所以 Javascript 函数对于 MySQL 来说是个鸡肋特性。然而即便如此，Oracle 还是把 Javascript 存储过程支持做成了一个 **MySQL 企业版专属** 的特性 —— 考虑到绝大多数 MySQL 用户使用的都是开源社区版本，这个特性属实是发布了个寂寞。
 
@@ -101,11 +101,11 @@ MySQL 在功能上缺失的绝不仅仅是是编程语言 / 存储过程支持�
 
 来自 CMU 的 Abigale Kim [对主流数据库的可扩展性](https://abigalekim.github.io/assets/pdf/Anarchy_in_the_Database_PGConfDev2024.pdf) 进行了研究：PostgreSQL 有着所有 DBMS 中最好的 **可扩展性**（Extensibility），以及其他数据库生态难望其项背的扩展插件数量 —— **375+**，这还只是 PGXN 注册在案的实用插件，[实际生态扩展总数已经破千](https://gist.github.com/joelonsql/e5aa27f8cc9bd22b8999b7de8aee9d47)。
 
-![](../Assets/Images/MySQLisDead_8.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_8.png)
 
 这些扩展插件为 PostgreSQL 提供了各种各样的功能 —— 地理空间，时间序列，向量检索，机器学习，OLAP 分析，全文检索，图数据库，让 PostgreSQL 真正成为一专多长的全栈数据库 —— 单一数据库选型便可替代各式各样的专用组件：MySQL，MongoDB，Kafka，Redis，ElasticSearch，Neo4j，甚至是专用分析数仓与数据湖。
 
-![](../Assets/Images/MySQLisDead_9.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_9.png)
 
 当 MySQL 还落在 “**关系型 OLTP 数据库”** 的窠臼时， PostgreSQL 早已经放飞自我，从一个关系型数据库发展成了一个多模态的数据库，最终成为了一个数据管理的抽象框架与开发平台。
 
@@ -121,29 +121,29 @@ MySQL 曾引以为傲的核心特点便是 **性能** —— 至少对于互�
 
 > MySQL 的版本越新，性能反而越差
 
-![](../Assets/Images/MySQLisDead_10.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_10.png)
 
 根据 Percona 的测试，在 sysbench 与 TPC-C 测试下，最新 MySQL 8.4 版本的性能相比 MySQL 5.7 出现了平均高达 **20%** 的下降。而 MySQL 专家 Mark Callaghan 进一步进行了详细的 [性能回归测试](https://smalldatum.blogspot.com/2024/02/perf-regressions-in-mysql-from-5621-to.html)，确认了这一现象：
 
-![](../Assets/Images/MySQLisDead_11.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_11.png)
 
 > MySQL 8.0.36 相比 5.6 ，QPS 吞吐量性能下降了 25% ～ 40% ！
 
 尽管 MySQL 的优化器在 8.x 有一些改进，一些复杂查询场景下的性能有所改善，但分析与复杂查询本来就不是 MySQL 的长处与适用场景，只能说**聊胜于无**。相反，如果作为基本盘的 OLTP CRUD 性能出了这么大的折损，那确实是完全说不过去的。
 
-![](../Assets/Images/MySQLisDead_12.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_12.png)
 
 > ClickBench：MySQL 打这个榜图什么呢？
 
 Peter Zaitsev 在博文《[**Oracle 最终还是杀死了 MySQL**](http://mp.weixin.qq.com/s?__biz=MzU5ODAyNTM5Ng==&mid=2247487841&idx=1&sn=07ce183e7f5eafb34551438df963fe6d&chksm=fe4b24bac93cadac5f791cf51f4fe17df9673b2ab427a324dbd7cd5886e4e892f706387dea9f&scene=21#wechat_redirect)》中评论：“与 MySQL 5.6 相比，MySQL 8.x 单线程简单工作负载上的性能出现了大幅下滑。你可能会说增加功能难免会以牺牲性能为代价，但 MariaDB 的性能退化要轻微得多，而 PostgreSQL 甚至能在 [新增功能的同时显著提升性能](https://smalldatum.blogspot.com/2024/06/postgres-17beta1-vs-sysbench-on-large.html)”。
 
-![](../Assets/Images/MySQLisDead_13.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_13.png)
 
 MySQL 的性能随版本更新而逐步衰减，但在同样的性能回归测试中，PostgreSQL 性能却可以随版本更新有着稳步提升。特别是在最关键的写入吞吐性能上，最新的 PostgreSQL 17beta1 相比六年前的 PG 10 甚至有了 30% ～ 70% 的提升。
 
 在 Mark Callaghan 的 **性能横向对比**（sysbench 吞吐场景） 中，我们可以看到五年前 PG 11 与 MySQL 5.6 的性能比值（蓝），与当下 PG 16 与 MySQL 8.0.34 的性能比值（红）。PostgreSQL 和 MySQL 的性能差距在这五年间拉的越来越大。
 
-![](../Assets/Images/MySQLisDead_14.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_14.png)
 
 几年前的业界共识是 PostgreSQL 与 MySQL 在 **简单 OLTP CRUD 场景** 下的性能基本相同。然而此消彼长之下，现在 PostgreSQL 的性能已经远远甩开 MySQL 了。PostgreSQL 的各种读吞吐量相比 MySQL 高 **25% ～ 100%** 不等，在一些写入场景下的吞吐量更是达到了 **200%** 甚至 **500%** 的恐怖水平。
 
@@ -157,7 +157,7 @@ MySQL 赖以安身立命的性能优势，已经不复存在了。
 
 权威的分布式事务测试组织 [JEPSEN](https://jepsen.io/analyses/mysql-8.0.34) 研究发现，MySQL 文档声称实现的 **可重复读 / RR** 隔离等级，实际提供的正确性保证要弱得多 —— MySQL 8.0.34 默认使用的 RR 隔离等级实际上并不可重复读，甚至既不**原子**也不单调，连 **单调原子视图 / MAV** 的基本水平都不满足。
 
-![](../Assets/Images/MySQLisDead_15.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_15.png)
 
 **MySQL 的 ACID 存在缺陷，且与文档承诺不符** —— 而轻信这一虚假承诺可能会导致严重的正确性问题，例如数据错漏与对账不平。对于一些数据完整性很关键的场景 —— 例如金融，这一点是无法容忍的。
 
@@ -165,7 +165,7 @@ MySQL 赖以安身立命的性能优势，已经不复存在了。
 
 与此同时，PostgreSQL 在 9.1 引入的 可串行化快照隔离（SSI） 算法可以用极小的性能代价提供完整可串行化隔离等级 —— 而且 PostgreSQL 的 SR 在正确性实现上毫无瑕疵 —— 这一点即使是 Oracle 也难以企及。
 
-![](../Assets/Images/MySQLisDead_16.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_16.png)
 
 李海翔教授在《[**一致性八仙图**](https://mp.weixin.qq.com/s/_BhAjcMkmthTf8Zw3RWKDw)》论文中，系统性地评估了主流 DBMS 隔离等级的正确性，图中蓝 / 绿色代表正确用规则 / 回滚避免异常；黄 A 代表异常，越多则正确性问题就越多；红 “D” 指使用了影响性能的死锁检测来处理异常，红 D 越多性能问题就越严重；
 
@@ -179,13 +179,13 @@ MySQL 赖以安身立命的性能优势，已经不复存在了。
 
 对一项技术而言，用户的规模直接决定了生态的繁荣程度。瘦死的骆驼比马大，烂船也有三斤钉。MySQL 曾经搭乘互联网东风扶摇而起，攒下了丰厚的家底，它的 Slogan 就很能说明问题 —— “**世界上最流行的开源关系型数据库**”。
 
-![](../Assets/Images/MySQLisDead_17.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_17.png)
 
 不幸的是在 2023 年，至少根据全世界最权威的开发者调研之一的 [**StackOverflow Annual Developer Survey**](http://mp.weixin.qq.com/s?__biz=MzU5ODAyNTM5Ng==&mid=2247485685&idx=1&sn=688f6d6d0f4128d7f77d710f04ff9024&chksm=fe4b3d2ec93cb438665b7e0d554511674091b2e486a70b8a3eb7e2c7a53681fb9834a08cb3c3&scene=21#wechat_redirect) 结果来看，MySQL 的使用率已经被 PostgreSQL 反超了 —— **最流行数据库的桂冠已经被 PostgreSQL 摘取。**
 
 特别是，如果将过去七年的调研数据放在一起，就可以得到这幅 PostgreSQL / MySQL 在专业开发者中使用率的变化趋势图（左上） —— 在横向科比的同一标准下，PostgreSQL 流行与 MySQL 过气的趋势显得一目了然。
 
-![](../Assets/Images/MySQLisDead_18.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_18.png)
 
 对于中国来说，此消彼长的变化趋势也同样成立。但如果对中国开发者说 PostgreSQL 比 MySQL 更流行，那确实是违反直觉与事实的。
 
@@ -193,7 +193,7 @@ MySQL 赖以安身立命的性能优势，已经不复存在了。
 
 与之恰好反过来的另一个极端是真正遭受国际制裁的俄联邦：由开源社区运营，不受单一主体公司控制的 PostgreSQL 成为了俄罗斯的数据库大救星 —— 其 PG 使用率以 60.5% 高居榜首，是其 MySQL 使用率 27% 的两倍。
 
-![](../Assets/Images/MySQLisDead_19.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_19.png)
 
 中国因为同样的自主可控信创逻辑，最近几年 PostgreSQL 的使用率也出现了显著跃升 —— PG 的使用率翻了三倍，而 PG 与 MySQL 用户比例已经从六七年前的 5:1 ，到三年前的 3:1，再迅速发展到现在的 2:1，相信会在未来几年内会很快追平并反超世界平均水平。毕竟，有这么多的国产数据库，都是基于 PostgreSQL 打造而成 —— 如果你做政企信创软件生意，那么大概率已经在用 PostgreSQL 了。
 
@@ -209,7 +209,7 @@ MySQL 的知识产权被 Oracle 所拥有，它不是像 PostgreSQL 那种 “�
 
 比起向一个商业竞争对手贡献代码，白嫖竞争对手的代码也许是更为明智的选择 —— **AWS 和其他云厂商利用 MySQL 内核参与数据库领域的竞争，却不回馈任何贡献**。于是作为竞争对手的 Oracle 也不愿意再去管理好 MySQL，而干脆自己也参与进来搞云 —— 仅仅只关注它自己的 MySQL heatwave 云版本，就像 AWS 仅仅专注于其 RDS 管控和 Aurora 服务一样。在 MySQL 之死上，云厂商也难辞其咎。
 
-![](../Assets/Images/MySQLisDead_20.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_20.png)
 
 逝者不可追，来者犹可待。PostgreSQL 应该从 MySQL 上吸取教训 —— 尽管 PG 社区已经非常小心地避免出现一家独大的情况出现，但生态确实在朝着几家巨头云厂商作大垄断的不利方向发展。
 
@@ -221,7 +221,7 @@ MySQL 的知识产权被 Oracle 所拥有，它不是像 PostgreSQL 那种 “�
 
 而另一个《[**云计算泥石流**](https://pigsty.cc/blog/cloud/exit/)》系列专栏则旨在扒开云服务背后的信息不对称，从而帮助公有云厂商更加体面，亦称得上是成效斐然。
 
-![](../Assets/Images/MySQLisDead_21.png)
+![](../Assets/Images/MySQLisDead/MySQLisDead_21.png)
 
 尽管我是 PostgreSQL 的坚定支持者，但我也赞同 Peter Zaitsev 的观点：**“如果 MySQL 彻底死掉了，开源关系型数据库实际上就被 PostgreSQL 一家垄断了，而垄断并不是一件好事，因为它会导致发展停滞与创新减缓。PostgreSQL 要想进入全盛状态，有一个 MySQL 作为竞争对手并不是坏事 ”**。
 

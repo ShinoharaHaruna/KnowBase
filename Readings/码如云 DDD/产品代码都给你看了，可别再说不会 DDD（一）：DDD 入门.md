@@ -208,7 +208,7 @@ public void changeMobile(String mobile, User user) {
 
 我基本上参阅完了市面上所有的 DDD 书籍（截止到 2023 年 3 月份），在这些书籍中，真正值得推崇的有以下 4 本书：
 
-![](../../Assets/Images/DDD_Introduction_1.1.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_1.1.png)
 
 - **《领域驱动设计：软件核心复杂性应对之道》**（蓝皮书，从左往右第一本，首版时间 2003 年）：DDD 的开山之作，对于初学者来说阅读起来有些晦涩，不建议初学者直接阅读该书
 - **《实现领域驱动设计》**（红皮书，从左往右第二本，首版时间 2013 年）：这本是讲 DDD 落地的经典书籍，其中包含大量代码示例，很多人都是通过这本书才真正进入 DDD 的世界

@@ -22,7 +22,7 @@ status: Finished
 
 在本系列的 [DDD 概念大白话](https://docs.mryqr.com/ddd-in-plain-words) 我们提到，DDD 中的所有组件都是围绕着 [聚合根](https://docs.mryqr.com/ddd-aggregate-root-and-repository) 展开的，其中有些本身即是聚合根的一部分，比如实体和值对象；有些是聚合根的客户，比如应用服务；有些则是对聚合根的辅助或补充，比如领域服务和工厂。反观当下流行的各种软件架构，无论是分层架构、六边形架构还是整洁架构，它们都有一个共同点，即在架构中心都有一个核心存在，这个核心正是领域模型，而 DDD 的聚合根则存在于领域模型之中。
 
-![](../../Assets/Images/DDD_Introduction_5.1.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_5.1.png)
 
 不难看出，既然每种架构中都有为领域模型预留的位置，这也意味着 DDD 可采用任何一种软件架构。事实也的确如此，DDD 并不要求采用哪种特定架构，如果你真要说 DDD 项目应该采用某种架构的话，那么应该 “以领域模型为中心的软件架构”。
 
@@ -46,7 +46,7 @@ status: Finished
 
 聚合根的创建通常通过**工厂**类完成，请求流经路线为：控制器 (Controller) -> 应用服务 (Application Service) -> 工厂 (Factory) -> 资源库 (Repository)。
 
-![](../../Assets/Images/DDD_Introduction_5.2.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_5.2.png)
 
 在码如云中，当用户提交表单后，系统后台将创建一份提交 (Submission)，这里的 `Submission` 便是一个聚合根对象。在整个 “创建 Submission” 的处理流程中，请求先通过 HTTP 协议到达 Spring MVC 中的 Controller：
 
@@ -157,7 +157,7 @@ public Submission createNewSubmission(Set<Answer> answers,
 
 此时的请求流经路线为：控制器 (Controller) -> 应用服务 (Application Service) -> 资源库 (Repository) -> 聚合根 (Aggregate Root)。
 
-![](../../Assets/Images/DDD_Introduction_5.3.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_5.3.png)
 
 在 [码如云](https://www.mryqr.com/) 中，当表单开启了审批功能过后，管理员可对 `Submission` 进行审批操作，本质上则是在更新 `Submission`。在 “审批 Submission” 的过程中，请求依然是首先到达 Controller：
 
@@ -249,7 +249,7 @@ public void approve(boolean passed,
 
 当然，并不是所有的业务用例都适合 “经典三部曲”，有时聚合根自身无法完成所有的业务逻辑，此时我们则需要借助领域服务 (Domain Service) 来完成请求的处理。比如，常见的使用领域服务的场景是需要进行跨聚合查询的时候。此时的请求流经路线则为：控制器 (Controller) -> 应用服务 (Application Service) -> 资源库 (Repository) -> 聚合根 (Aggregate Root) -> 领域服务 (Domain Service)。
 
-![](../../Assets/Images/DDD_Introduction_5.4.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_5.4.png)
 
 在码如云中，管理员可以对既有的 `Submission` 进行编辑更新，但是由于更新时可能涉及到检查手机号或者邮箱等控件填值的唯一性，因此在更新时需要跨 `Submission` 进行查询，此时光靠 `Submission` 自身便无法完成了，为此我们可以创建领域服务 `SubmissionDomainService` 用于跨 `Submission` 操作：
 
@@ -326,7 +326,7 @@ public void updateSubmission(Submission submission,
 
 聚合根删除流程相对简单，此时的请求流经路线为：控制器 (Controller) -> 应用服务 (Application Service) -> 资源库 (Application Service) -> 聚合根 (Aggregate Root) 。
 
-![](../../Assets/Images/DDD_Introduction_5.5.png)
+![](../../Assets/Images/DDD_Introduction/DDD_Introduction_5.5.png)
 
 删除请求首先到达 Controller：
 
