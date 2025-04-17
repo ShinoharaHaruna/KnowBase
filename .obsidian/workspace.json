@@ -4,20 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "7497b98124c5d9bd",
+        "id": "661bbf4666694ae0",
         "type": "tabs",
         "children": [
           {
-            "id": "bd788eb1dedfd696",
+            "id": "0c6506776058d4db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
+            }
+          },
+          {
+            "id": "c5af3471ff5fd988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Weeks/周报 - 第16周.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "周报 - 第16周"
+            }
+          },
+          {
+            "id": "d93ee1b79e48c50f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(Metadata)/Tags.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Tags"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,12 +112,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Readings/MySQL 已死，PostgreSQL 万岁！.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "MySQL 已死，PostgreSQL 万岁！ 的大纲"
             }
           }
         ]
@@ -200,7 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 437.5
+    "width": 543.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,46 +257,47 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bd788eb1dedfd696",
+  "active": "c5af3471ff5fd988",
   "lastOpenFiles": [
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（九）：领域事件.md",
+    "Readings/MySQL 已死，PostgreSQL 万岁！.md",
     "(Metadata)/Tags.md",
     "Prompts/Tags Generator.md",
-    "Weeks/周报 - 第16周.md",
-    "Readings/码如云 DDD/Readme.md",
-    "Assets/Images/DDD_Introduction_9.1.png",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（八）：应用服务与领域服务.md",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（五）：请求处理流程.md",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（六）：聚合根与资源库.md",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（七）：实体与值对象.md",
-    "Assets/Images/DDD_Introduction_7.3.png",
     "Prompts/PromptsIndex.md",
-    "Assets/Images/DDD_Introduction_7.2.png",
-    "Assets/Images/DDD_Introduction_7.1.png",
-    "Wiki/分布式事务.md",
-    "Assets/Images/DDD_Introduction_5.5.png",
-    "Assets/Images/DDD_Introduction_5.4.png",
-    "Assets/Images/DDD_Introduction_5.3.png",
-    "Assets/Images/DDD_Introduction_5.2.png",
-    "Assets/Images/DDD_Introduction_5.1.png",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（四）：代码工程结构.md",
-    "Assets/Images/DDD_Introduction_4.9.png",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（三）：战略设计.md",
-    "README.md",
-    "Prompts/MetaPrompt.md",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（二）：DDD 概念大白话.md",
+    "Assets/Images/MySQLisDead_21.png",
+    "Weeks/周报 - 第16周.md",
+    "Assets/Images/MySQLisDead_20.png",
+    "Assets/Images/MySQLisDead_19.png",
+    "Assets/Images/MySQLisDead_18.png",
+    "Assets/Images/MySQLisDead_17.png",
+    "Assets/Images/MySQLisDead_16.png",
+    "Assets/Images/MySQLisDead_15.png",
+    "Assets/Images/MySQLisDead_14.png",
+    "Assets/Images/MySQLisDead_13.png",
+    "Assets/Images/MySQLisDead_12.png",
+    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（九）：领域事件.md",
     "Markdown Playground.md",
-    "Prompts/DailyReportHelper.md",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（一）：DDD 入门.md",
-    "Weeks/周报 - 第15周.md",
-    "Readings/One Small Step/Readme.md",
-    "Readings/小林 Coding/Readme.md",
-    "Prompts/TechLeader.md",
-    "Readings/小林 Coding/图解MySQL.md",
-    "Readings/码如云 DDD",
-    "Prompts/LearningTech.md",
-    "Readings/小林 Coding",
+    "Readings/每个人都应该掌握的快速调研法.md",
+    "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
+    "Readings/码如云 DDD/Readme.md",
+    "README.md",
+    "Wiki/限流与并发控制.md",
+    "Wiki/Java.md",
+    "Wiki/分布式事务.md",
     "Whiteboard.canvas",
+    "Kanban.md",
+    "Dataview Query Console.md",
+    "Wiki/闭包.md",
+    "Readings/AI 驱动对象存储成为企业存储主导技术.md",
+    "Readings/尽量不要在公共场合做诚挚的自我批评。.md",
+    "Wiki/Git.md",
+    "Wiki/FHS.md",
+    "Wiki/Merkle Tree.md",
+    "Wiki/类型断言.md",
+    "Wiki/Raft.md",
+    "Wiki/IO Multiplexing.md",
+    "Wiki/缓存一致性.md",
+    "Readings/码如云 DDD",
+    "Readings/小林 Coding",
     "Assets/Images/gguf-file-structure.png.crdownload",
     "Readings/One Small Step/LICENSE.txt",
     "Readings/One Small Step/Unconfirmed 823001.crdownload",

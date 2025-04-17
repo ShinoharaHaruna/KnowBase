@@ -17,7 +17,7 @@
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
   "defaultModelKey": "MyTan|3rd party (openai-format)",
-  "embeddingModelKey": "text-embedding-3-small|openai",
+  "embeddingModelKey": "mxbai-embed-large|ollama",
   "temperature": 0.1,
   "maxTokens": 1000,
   "contextTurns": 15,
@@ -36,7 +36,7 @@
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
   "enableIndexSync": true,
-  "debug": false,
+  "debug": true,
   "enableEncryption": true,
   "maxSourceChunks": 3,
   "groqApiKey": "",
@@ -227,6 +227,17 @@
       "isEmbeddingModel": true,
       "core": true,
       "apiKey": ""
+    },
+    {
+      "name": "mxbai-embed-large",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "mxbai-embed-large"
     },
     {
       "name": "text-embedding-3-large",
