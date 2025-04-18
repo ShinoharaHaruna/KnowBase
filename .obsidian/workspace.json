@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2526f667fc3e4561",
+        "id": "4b639adc7461632b",
         "type": "tabs",
         "children": [
           {
-            "id": "47c06d43ea877a99",
+            "id": "0112a908e13f6475",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Weeks/周报 - 第16周.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "周报 - 第16周"
+              "title": "新标签页"
             }
           }
         ]
@@ -81,13 +76,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readings/MySQL 已死，PostgreSQL 万岁！.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MySQL 已死，PostgreSQL 万岁！ 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -226,10 +220,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "47c06d43ea877a99",
+  "active": "0112a908e13f6475",
   "lastOpenFiles": [
-    "Kanban.md",
+    "(Metadata)/Tags.md",
+    "Readings/从零开始了解推荐系统.md",
+    "Prompts/PromptsIndex.md",
+    "Prompts/Tags Generator.md",
     "Weeks/周报 - 第16周.md",
+    "README.md",
+    "Assets/Images/RecommendSystemFrom0_5.png",
+    "Assets/Images/RecommendSystemFrom0_4.png",
+    "Assets/Images/RecommendSystemFrom0_3.png",
+    "Assets/Images/RecommendSystemFrom0_2.png",
+    "Assets/Images/RecommendSystemFrom0_1.png",
+    "Prompts/DailyReportHelper.md",
+    "Kanban.md",
     "(Metadata)/OngoingNotes.md",
     "(Template)/Reading.md",
     "Assets/Images/IFoundThatReallyGoodPeopleAreGoodAtChatting",
@@ -240,23 +245,14 @@
     "Assets/Images/MySQLisDead/MySQLisDead_21.png",
     "Assets/Images/MySQLisDead",
     "Readings/MySQL 已死，PostgreSQL 万岁！.md",
-    "(Metadata)/Tags.md",
-    "Prompts/Tags Generator.md",
-    "Prompts/PromptsIndex.md",
     "Assets/Images/MySQLisDead/MySQLisDead_19.png",
     "Assets/Images/MySQLisDead/MySQLisDead_18.png",
     "Assets/Images/MySQLisDead/MySQLisDead_17.png",
-    "Assets/Images/MySQLisDead/MySQLisDead_16.png",
-    "Assets/Images/MySQLisDead/MySQLisDead_15.png",
-    "Assets/Images/MySQLisDead/MySQLisDead_14.png",
-    "Assets/Images/MySQLisDead/MySQLisDead_13.png",
-    "Assets/Images/MySQLisDead/MySQLisDead_12.png",
     "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（九）：领域事件.md",
     "Markdown Playground.md",
     "Readings/每个人都应该掌握的快速调研法.md",
     "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
     "Readings/码如云 DDD/Readme.md",
-    "README.md",
     "Wiki/限流与并发控制.md",
     "Wiki/Java.md",
     "Wiki/分布式事务.md",
@@ -267,9 +263,6 @@
     "Readings/尽量不要在公共场合做诚挚的自我批评。.md",
     "Wiki/Git.md",
     "Wiki/FHS.md",
-    "Wiki/Merkle Tree.md",
-    "Wiki/类型断言.md",
-    "Wiki/Raft.md",
     "Readings/码如云 DDD",
     "Readings/小林 Coding",
     "Assets/Images/gguf-file-structure.png.crdownload",
