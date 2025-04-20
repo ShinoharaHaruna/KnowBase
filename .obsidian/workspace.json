@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4b639adc7461632b",
+        "id": "90cceefc0b81b159",
         "type": "tabs",
         "children": [
           {
-            "id": "0112a908e13f6475",
+            "id": "677296e92f282e5e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -84,7 +84,8 @@
               "title": "大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -220,20 +221,28 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0112a908e13f6475",
+  "active": "677296e92f282e5e",
   "lastOpenFiles": [
+    "Wiki/闭包捕获.md",
+    "Weeks/周报 - 第17周.md",
+    "README.md",
     "(Metadata)/Tags.md",
-    "Readings/从零开始了解推荐系统.md",
+    "Wiki/闭包.md",
     "Prompts/PromptsIndex.md",
     "Prompts/Tags Generator.md",
+    "Prompts/WriteWiki.md",
+    "Prompts/Learning.md",
+    "Prompts/MetaPrompt.md",
+    "Prompts/DailyReportHelper.md",
+    "Prompts/LearningTech.md",
     "Weeks/周报 - 第16周.md",
-    "README.md",
+    "Weeks/周报 - 第15周.md",
+    "Readings/从零开始了解推荐系统.md",
     "Assets/Images/RecommendSystemFrom0_5.png",
     "Assets/Images/RecommendSystemFrom0_4.png",
     "Assets/Images/RecommendSystemFrom0_3.png",
     "Assets/Images/RecommendSystemFrom0_2.png",
     "Assets/Images/RecommendSystemFrom0_1.png",
-    "Prompts/DailyReportHelper.md",
     "Kanban.md",
     "(Metadata)/OngoingNotes.md",
     "(Template)/Reading.md",
@@ -255,14 +264,7 @@
     "Readings/码如云 DDD/Readme.md",
     "Wiki/限流与并发控制.md",
     "Wiki/Java.md",
-    "Wiki/分布式事务.md",
     "Whiteboard.canvas",
-    "Dataview Query Console.md",
-    "Wiki/闭包.md",
-    "Readings/AI 驱动对象存储成为企业存储主导技术.md",
-    "Readings/尽量不要在公共场合做诚挚的自我批评。.md",
-    "Wiki/Git.md",
-    "Wiki/FHS.md",
     "Readings/码如云 DDD",
     "Readings/小林 Coding",
     "Assets/Images/gguf-file-structure.png.crdownload",
