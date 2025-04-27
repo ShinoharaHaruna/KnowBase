@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "90cceefc0b81b159",
+        "id": "abd849dcc6b02cd4",
         "type": "tabs",
         "children": [
           {
-            "id": "677296e92f282e5e",
+            "id": "42ab953066e29e3c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -84,8 +84,7 @@
               "title": "大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readings/小林 Coding/图解MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "图解MySQL 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -124,12 +122,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readings/小林 Coding/图解MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "图解MySQL 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -221,23 +218,25 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "677296e92f282e5e",
+  "active": "42ab953066e29e3c",
   "lastOpenFiles": [
-    "Wiki/闭包捕获.md",
-    "Weeks/周报 - 第17周.md",
+    "Prompts/MetaPrompt.md",
     "README.md",
+    "Weeks/周报 - 第18周.md",
+    "Weeks/周报 - 第17周.md",
+    "Prompts/PromptsIndex.md",
+    "Readings/从零开始了解推荐系统.md",
+    "Prompts/ThesisWritingHelper.md",
+    "Prompts/DailyReportHelper.md",
+    "Prompts/WriteWiki.md",
+    "Wiki/闭包捕获.md",
     "(Metadata)/Tags.md",
     "Wiki/闭包.md",
-    "Prompts/PromptsIndex.md",
     "Prompts/Tags Generator.md",
-    "Prompts/WriteWiki.md",
     "Prompts/Learning.md",
-    "Prompts/MetaPrompt.md",
-    "Prompts/DailyReportHelper.md",
     "Prompts/LearningTech.md",
     "Weeks/周报 - 第16周.md",
     "Weeks/周报 - 第15周.md",
-    "Readings/从零开始了解推荐系统.md",
     "Assets/Images/RecommendSystemFrom0_5.png",
     "Assets/Images/RecommendSystemFrom0_4.png",
     "Assets/Images/RecommendSystemFrom0_3.png",
@@ -262,8 +261,6 @@
     "Readings/每个人都应该掌握的快速调研法.md",
     "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
     "Readings/码如云 DDD/Readme.md",
-    "Wiki/限流与并发控制.md",
-    "Wiki/Java.md",
     "Whiteboard.canvas",
     "Readings/码如云 DDD",
     "Readings/小林 Coding",
