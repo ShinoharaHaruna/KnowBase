@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "abd849dcc6b02cd4",
+        "id": "538f197df9409c80",
         "type": "tabs",
         "children": [
           {
-            "id": "42ab953066e29e3c",
+            "id": "e26c0bfd2a30475a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,12 +76,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "分布式存储的技术选型：HDFS、Ceph、MinIO 对比 的大纲"
             }
           }
         ]
@@ -198,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 543.5
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,33 +219,39 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "42ab953066e29e3c",
+  "active": "e26c0bfd2a30475a",
   "lastOpenFiles": [
-    "Prompts/MetaPrompt.md",
+    "(Metadata)/ResentNotes.md",
+    "(Metadata)/OngoingNotes.md",
+    "Wiki/Linux 启动.md",
+    "Wiki/分布式事务.md",
+    "(Template)/Reading.md",
     "README.md",
     "Weeks/周报 - 第18周.md",
-    "Weeks/周报 - 第17周.md",
+    "Weeks/周报 - 第19周.md",
+    "Prompts/DailyReportHelper.md",
+    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
+    "Prompts/LearningTech.md",
+    "Readings/AI 驱动对象存储成为企业存储主导技术.md",
+    "Wiki/IO Multiplexing.md",
+    "Wiki/缓存一致性.md",
+    "Prompts/TechLeader.md",
+    "Prompts/FastKnowing.md",
+    "Prompts/WriteWiki.md",
     "Prompts/PromptsIndex.md",
+    "Prompts/MetaPrompt.md",
+    "Weeks/周报 - 第17周.md",
     "Readings/从零开始了解推荐系统.md",
     "Prompts/ThesisWritingHelper.md",
-    "Prompts/DailyReportHelper.md",
-    "Prompts/WriteWiki.md",
     "Wiki/闭包捕获.md",
     "(Metadata)/Tags.md",
     "Wiki/闭包.md",
     "Prompts/Tags Generator.md",
-    "Prompts/Learning.md",
-    "Prompts/LearningTech.md",
-    "Weeks/周报 - 第16周.md",
-    "Weeks/周报 - 第15周.md",
     "Assets/Images/RecommendSystemFrom0_5.png",
     "Assets/Images/RecommendSystemFrom0_4.png",
     "Assets/Images/RecommendSystemFrom0_3.png",
     "Assets/Images/RecommendSystemFrom0_2.png",
     "Assets/Images/RecommendSystemFrom0_1.png",
-    "Kanban.md",
-    "(Metadata)/OngoingNotes.md",
-    "(Template)/Reading.md",
     "Assets/Images/IFoundThatReallyGoodPeopleAreGoodAtChatting",
     "Assets/Images/DSSResearch",
     "Assets/Images/RedisStream",
@@ -252,15 +259,9 @@
     "Assets/Images/MySQLisDead/MySQLisDead_20.png",
     "Assets/Images/MySQLisDead/MySQLisDead_21.png",
     "Assets/Images/MySQLisDead",
-    "Readings/MySQL 已死，PostgreSQL 万岁！.md",
     "Assets/Images/MySQLisDead/MySQLisDead_19.png",
     "Assets/Images/MySQLisDead/MySQLisDead_18.png",
     "Assets/Images/MySQLisDead/MySQLisDead_17.png",
-    "Readings/码如云 DDD/产品代码都给你看了，可别再说不会 DDD（九）：领域事件.md",
-    "Markdown Playground.md",
-    "Readings/每个人都应该掌握的快速调研法.md",
-    "Readings/Go 错误处理指北：如何优雅的处理错误？.md",
-    "Readings/码如云 DDD/Readme.md",
     "Whiteboard.canvas",
     "Readings/码如云 DDD",
     "Readings/小林 Coding",
