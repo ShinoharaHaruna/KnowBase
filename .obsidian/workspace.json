@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "538f197df9409c80",
+        "id": "37327de63a5c99c2",
         "type": "tabs",
         "children": [
           {
-            "id": "e26c0bfd2a30475a",
+            "id": "30fac9c48167313b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -219,8 +224,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e26c0bfd2a30475a",
+  "active": "30fac9c48167313b",
   "lastOpenFiles": [
+    "Prompts/LearningTech.md",
+    "Weeks/周报 - 第20周.md",
+    "Weeks/周报 - 第19周.md",
+    "Prompts/PromptsIndex.md",
+    "Readings/Go 并发控制：context 源码解读.md",
+    "Prompts/ThesisWritingHelper.md",
+    "Prompts/DeepLearningHelper.md",
+    "Prompts/MetaPrompt.md",
+    "Prompts/FastKnowing.md",
     "(Metadata)/ResentNotes.md",
     "(Metadata)/OngoingNotes.md",
     "Wiki/Linux 启动.md",
@@ -228,25 +242,16 @@
     "(Template)/Reading.md",
     "README.md",
     "Weeks/周报 - 第18周.md",
-    "Weeks/周报 - 第19周.md",
     "Prompts/DailyReportHelper.md",
     "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
-    "Prompts/LearningTech.md",
     "Readings/AI 驱动对象存储成为企业存储主导技术.md",
     "Wiki/IO Multiplexing.md",
     "Wiki/缓存一致性.md",
     "Prompts/TechLeader.md",
-    "Prompts/FastKnowing.md",
     "Prompts/WriteWiki.md",
-    "Prompts/PromptsIndex.md",
-    "Prompts/MetaPrompt.md",
     "Weeks/周报 - 第17周.md",
     "Readings/从零开始了解推荐系统.md",
-    "Prompts/ThesisWritingHelper.md",
     "Wiki/闭包捕获.md",
-    "(Metadata)/Tags.md",
-    "Wiki/闭包.md",
-    "Prompts/Tags Generator.md",
     "Assets/Images/RecommendSystemFrom0_5.png",
     "Assets/Images/RecommendSystemFrom0_4.png",
     "Assets/Images/RecommendSystemFrom0_3.png",
