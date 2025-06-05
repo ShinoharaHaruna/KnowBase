@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "37327de63a5c99c2",
+        "id": "c837e0b724c8c8fd",
         "type": "tabs",
         "children": [
           {
-            "id": "30fac9c48167313b",
+            "id": "f12de7181f5a1e65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "新标签页"
             }
           }
         ]
@@ -224,11 +219,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "30fac9c48167313b",
+  "active": "f12de7181f5a1e65",
   "lastOpenFiles": [
-    "Prompts/LearningTech.md",
+    "README.md",
+    "Markdown Playground.md",
+    "Weeks/周报 - 第23周.md",
+    "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
+    "Weeks/周报 - 第22周.md",
+    "Weeks/周报 - 第21周.md",
     "Weeks/周报 - 第20周.md",
     "Weeks/周报 - 第19周.md",
+    "Weeks/周报 - 第18周.md",
+    "Prompts/LearningTech.md",
     "Prompts/PromptsIndex.md",
     "Readings/Go 并发控制：context 源码解读.md",
     "Prompts/ThesisWritingHelper.md",
@@ -240,18 +242,11 @@
     "Wiki/Linux 启动.md",
     "Wiki/分布式事务.md",
     "(Template)/Reading.md",
-    "README.md",
-    "Weeks/周报 - 第18周.md",
     "Prompts/DailyReportHelper.md",
     "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
     "Readings/AI 驱动对象存储成为企业存储主导技术.md",
     "Wiki/IO Multiplexing.md",
     "Wiki/缓存一致性.md",
-    "Prompts/TechLeader.md",
-    "Prompts/WriteWiki.md",
-    "Weeks/周报 - 第17周.md",
-    "Readings/从零开始了解推荐系统.md",
-    "Wiki/闭包捕获.md",
     "Assets/Images/RecommendSystemFrom0_5.png",
     "Assets/Images/RecommendSystemFrom0_4.png",
     "Assets/Images/RecommendSystemFrom0_3.png",
