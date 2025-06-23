@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c837e0b724c8c8fd",
+        "id": "54c967c0cf7f9969",
         "type": "tabs",
         "children": [
           {
-            "id": "f12de7181f5a1e65",
+            "id": "b59242f17b019b6c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 392.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,13 +220,26 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "f12de7181f5a1e65",
+  "active": "b59242f17b019b6c",
   "lastOpenFiles": [
+    "Weeks/周报 - 第26周.md",
     "README.md",
-    "Markdown Playground.md",
-    "Weeks/周报 - 第23周.md",
-    "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
+    "Weeks/周报 - 第24周.md",
+    "Weeks/周报 - 第25周.md",
+    "Weeks/周报 - 第17周.md",
+    "Weeks/周报 - 第15周.md",
+    "Weeks/周报 - 第14周.md",
+    "Weeks/周报 - 第10周.md",
+    "Weeks/周报 - 第9周.md",
+    "Weeks/周报 - 第8周.md",
+    "Weeks/周报 - 第7周.md",
+    "Weeks/周报 - 第6周.md",
+    "Weeks/周报 - 第4周.md",
+    "Weeks/周报 - 第3周.md",
     "Weeks/周报 - 第22周.md",
+    "Weeks/周报 - 第23周.md",
+    "Markdown Playground.md",
+    "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
     "Weeks/周报 - 第21周.md",
     "Weeks/周报 - 第20周.md",
     "Weeks/周报 - 第19周.md",
@@ -234,19 +248,6 @@
     "Prompts/PromptsIndex.md",
     "Readings/Go 并发控制：context 源码解读.md",
     "Prompts/ThesisWritingHelper.md",
-    "Prompts/DeepLearningHelper.md",
-    "Prompts/MetaPrompt.md",
-    "Prompts/FastKnowing.md",
-    "(Metadata)/ResentNotes.md",
-    "(Metadata)/OngoingNotes.md",
-    "Wiki/Linux 启动.md",
-    "Wiki/分布式事务.md",
-    "(Template)/Reading.md",
-    "Prompts/DailyReportHelper.md",
-    "Readings/分布式存储的技术选型：HDFS、Ceph、MinIO 对比.md",
-    "Readings/AI 驱动对象存储成为企业存储主导技术.md",
-    "Wiki/IO Multiplexing.md",
-    "Wiki/缓存一致性.md",
     "Assets/Images/RecommendSystemFrom0_5.png",
     "Assets/Images/RecommendSystemFrom0_4.png",
     "Assets/Images/RecommendSystemFrom0_3.png",
