@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "54c967c0cf7f9969",
+        "id": "b15a73701dd359eb",
         "type": "tabs",
         "children": [
           {
-            "id": "b59242f17b019b6c",
+            "id": "cc36dad75171cc29",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Weeks/周报 - 第30周.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "周报 - 第30周"
             }
           }
         ]
@@ -199,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5,
-    "collapsed": true
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,34 +224,34 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b59242f17b019b6c",
+  "active": "cc36dad75171cc29",
   "lastOpenFiles": [
-    "Weeks/周报 - 第26周.md",
     "README.md",
+    "Weeks/周报 - 第30周.md",
+    "Weeks/周报 - 第29周.md",
+    "Weeks/周报 - 第28周.md",
+    "Weeks/周报 - 第27周.md",
+    "Markdown Playground.md",
+    "Prompts/PaperAnalysis.md",
+    "Prompts/LearningWithFeynman.md",
+    "Prompts/FastKnowing.md",
+    "Prompts/LearningTech.md",
+    "Prompts/PractiseSQL.md",
+    "Prompts/WriteWiki.md",
+    "Prompts/TechLeader.md",
+    "Prompts/Debate.md",
+    "Prompts/PromptsIndex.md",
+    "Prompts/MetaPrompt.md",
+    "Prompts/DailyReportHelper.md",
+    "Prompts/ThesisWritingHelper.md",
+    "Prompts/DeepLearningHelper.md",
+    "Weeks/周报 - 第23周.md",
     "Weeks/周报 - 第24周.md",
     "Weeks/周报 - 第25周.md",
+    "Weeks/周报 - 第26周.md",
     "Weeks/周报 - 第17周.md",
     "Weeks/周报 - 第15周.md",
     "Weeks/周报 - 第14周.md",
-    "Weeks/周报 - 第10周.md",
-    "Weeks/周报 - 第9周.md",
-    "Weeks/周报 - 第8周.md",
-    "Weeks/周报 - 第7周.md",
-    "Weeks/周报 - 第6周.md",
-    "Weeks/周报 - 第4周.md",
-    "Weeks/周报 - 第3周.md",
-    "Weeks/周报 - 第22周.md",
-    "Weeks/周报 - 第23周.md",
-    "Markdown Playground.md",
-    "Readings/Golang 中的 Context 如何让代码更智能、更安全、更易于扩展.md",
-    "Weeks/周报 - 第21周.md",
-    "Weeks/周报 - 第20周.md",
-    "Weeks/周报 - 第19周.md",
-    "Weeks/周报 - 第18周.md",
-    "Prompts/LearningTech.md",
-    "Prompts/PromptsIndex.md",
-    "Readings/Go 并发控制：context 源码解读.md",
-    "Prompts/ThesisWritingHelper.md",
     "Assets/Images/RecommendSystemFrom0_5.png",
     "Assets/Images/RecommendSystemFrom0_4.png",
     "Assets/Images/RecommendSystemFrom0_3.png",
